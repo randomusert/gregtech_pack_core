@@ -1,6 +1,6 @@
 {
   "name": "machine.alloyer",
-  "appearence": {
+  "appearance": {
     "running": {
       "light": 15
     }
@@ -25,7 +25,7 @@
     },
     {
       "id": "input2",
-      "x": 67,
+      "x": 87,
       "y": 30,
       "type": "custommachinery:slot"
     },
@@ -39,12 +39,6 @@
       "x": 149,
       "y": 30,
       "type": "custommachinery:slot"
-    },
-    {
-      "id": "upgrade",
-      "x": 116,
-      "y": 50,
-      "type": "customamchinery:slot"
     },
     {
       "x": 116,
@@ -80,13 +74,7 @@
       "type": "custommachinery:item"
     },
     {
-      "mode": "input",
-      "id": "upgrade",
-      "type": "custommachinery:item",
-      "variant": "custommachinery:upgrade"
-    },
-    {
-      "capacity": 100000,
+      "capacity": 6400000,
       "type": "custommachinery:energy"
     }
   ]

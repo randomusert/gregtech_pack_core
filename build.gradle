@@ -74,6 +74,7 @@ dependencies {
     implementation "curse.maven:custom-machinery-457017:7344491"
     implementation "curse.maven:gregtechceu-modern-890405:6792853"
     implementation "curse.maven:jei-238222:7270455"
+    implementation "curse.maven:mekanism-268560:7132168"
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {
