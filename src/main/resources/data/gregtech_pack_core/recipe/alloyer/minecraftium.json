@@ -1,0 +1,36 @@
+{
+  "type": "custommachinery:custom_machine",
+  "machine": "custommachinery:alloyer",
+  "time": 1000,
+  "requirements": [
+      {
+        "type": "custommachinery:item",
+        "ingredient": {
+          "item": "minecraft:stone",
+          "count": 4
+        },
+        "mode": "input"
+      },
+      {
+        "type": "custommachinery:item",
+        "ingredient": {
+          "item": "minecraft:iron_block",
+          "count": 1
+        },
+        "mode": "input"
+      },
+      {
+        "type": "custommachinery:energy_per_tick",
+        "amount": 20,
+        "mode": "input"
+      },
+      {
+        "type": "custommachinery:item",
+        "ingredient": {
+          "item": "gregtech_pack_core:minecraftium",
+          "count": 1
+        }
+      }
+
+  ]
+}
