@@ -88,7 +88,7 @@ side = "BOTH"
 
 [[dependencies."${mod_id}"]]
 modId = "gtceu"
-type = "optional"
+type = "required"
 versionRange = "[7.0.2,)"
 ordering = "NONE"
 side = "BOTH"

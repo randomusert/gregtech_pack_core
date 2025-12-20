@@ -49,6 +49,7 @@ public class Gregtech_pack_core {
         ModItems.ITEMS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TAB.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
+        modContainer.registerConfig(ModConfig.Type.COMMON, Gregtech_pack_core_config.SPEC);
 
     }
 
