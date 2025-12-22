@@ -10,4 +10,6 @@ public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Gregtech_pack_core.MODID);
 
     public static final DeferredItem<Item> MINECRAFTIUM = ITEMS.registerSimpleItem("minecraftium", new Item.Properties().stacksTo(90).rarity(Rarity.EPIC));
+
+    public static final DeferredItem<Item> GREGIUM = ITEMS.registerSimpleItem("gregium", new Item.Properties().stacksTo(90).rarity(Rarity.EPIC));
 }

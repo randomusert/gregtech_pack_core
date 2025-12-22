@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xxx",
+    "xox",
+    "xxx"
+  ],
+  "key": {
+    "x": {
+      "item": "gtceu:ulv_machine_hull"
+    },
+    "o": {
+      "item": "gregtech_pack_core:minecraftium"
+    }
+  },
+  "result": {
+    "id": "customachinery:custom_machine_item",
+    "count": 1,
+    "components": {"custommachinery:machine": "greg_tech_pack:iumcrafter"}
+  }
+}
