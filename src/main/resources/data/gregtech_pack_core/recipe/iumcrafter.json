@@ -10,12 +10,12 @@
       "item": "minecraft:stone"
     },
     "o": {
-      "item": "gregtech_pack_core:minecraftium"
+      "item": "#c:ingots/steel"
     }
   },
   "result": {
-    "id": "customachinery:custom_machine_item",
+    "id": "custommachinery:custom_machine_item",
     "count": 1,
-    "components": {"custommachinery:machine": "greg_tech_pack:iumcrafter"}
+    "components": {"custommachinery:machine": "gregtech_pack_core:iumcrafter"}
   }
 }

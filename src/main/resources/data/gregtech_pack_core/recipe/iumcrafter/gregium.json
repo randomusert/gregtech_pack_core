@@ -20,7 +20,7 @@
       }
     },
     {
-      "type": "custommachinery:energy_pert_tick",
+      "type": "custommachinery:energy_per_tick",
       "mode": "input",
       "amount": 100
     },
