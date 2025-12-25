@@ -16,15 +16,15 @@ import vazkii.patchouli.api.PatchouliAPI;
 public class GuideItem extends Item {
 
     public GuideItem(Properties properties) {
-        super(properties);
+        super(properties.stacksTo(1));
     }
 
     private static final ResourceLocation BOOKLOCATION = ResourceLocation.fromNamespaceAndPath(Gregtech_pack_core.MODID, "gtpc_guide");
 
     @Override
-    public InteractionResultHolder<ItemStack> use(Level level, ServerPlayer player, InteractionHand hand) {
-        if (!level.isClientSide) {
-            PatchouliAPI.get().openBookGUI(player, BOOKLOCATION);
+    public InteractionResultHolder<ItemStack> use(Level level, Player player, InteractionHand hand) {
+        if (level.isClientSide) {
+            PatchouliAPI.get().openBookGUI(BOOKLOCATION);
         }
         return InteractionResultHolder.success(player.getItemInHand(hand));
     }

@@ -10,7 +10,7 @@
       "item": "minecraft:stone"
     },
     "o": {
-      "item": "#c:ingots/steel"
+      "tag": "c:ingots/steel"
     }
   },
   "result": {

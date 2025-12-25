@@ -1,5 +1,5 @@
 {
-  "type": "custommachinery",
+  "type": "custommachinery:custom_machine",
   "machine": "gregtech_pack_core:iumcrafter",
   "time": 100,
   "requirements": [

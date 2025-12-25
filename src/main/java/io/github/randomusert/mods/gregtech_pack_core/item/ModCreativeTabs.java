@@ -17,6 +17,6 @@ public class ModCreativeTabs {
                     .title(Component.translatable("creativetab.gregtech_pack_core.gtpc_tab"))
                     .displayItems((itemDisplayParameter, output) -> {
                         output.accept(ModItems.MINECRAFTIUM);
-                        output.accept(ModItems.MINECRAFTIUM);
+                        output.accept(ModItems.GREGIUM);
                     }).build());
 }
