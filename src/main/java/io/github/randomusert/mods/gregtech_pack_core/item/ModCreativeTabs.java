@@ -18,5 +18,6 @@ public class ModCreativeTabs {
                     .displayItems((itemDisplayParameter, output) -> {
                         output.accept(ModItems.MINECRAFTIUM);
                         output.accept(ModItems.GREGIUM);
+                        output.accept(ModItems.SINGULARITY_ALLOY);
                     }).build());
 }

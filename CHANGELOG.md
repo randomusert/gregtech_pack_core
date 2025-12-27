@@ -31,8 +31,9 @@ This mod is in beta and in early development
 ## warning!
 This mod is n beta and in early development
 ## What's new
-* added GTCEu fi_fi translation
+* added incomplete GTCEu fi_fi translation
 * Patchouli book for en_us and fi_fi
+* added a creative tier material called Singularity Alloy
 
 
 ## bug fixes

@@ -9,7 +9,16 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 public class ModItems {
     public static final DeferredRegister.Items ITEMS = DeferredRegister.createItems(Gregtech_pack_core.MODID);
 
-    public static final DeferredItem<Item> MINECRAFTIUM = ITEMS.registerSimpleItem("minecraftium", new Item.Properties().stacksTo(90).rarity(Rarity.EPIC));
+    public static final DeferredItem<Item> MINECRAFTIUM = ITEMS.registerSimpleItem("minecraftium", new Item.Properties().stacksTo(90).rarity(Rarity.RARE));
 
-    public static final DeferredItem<Item> GREGIUM = ITEMS.registerSimpleItem("gregium", new Item.Properties().stacksTo(90).rarity(Rarity.EPIC));
+    public static final DeferredItem<Item> GREGIUM = ITEMS.registerSimpleItem("gregium", new Item.Properties().stacksTo(90).rarity(Rarity.RARE));
+
+    public static final DeferredItem<SingularityAlloyItem> SINGULARITY_ALLOY =
+            ITEMS.registerItem(
+                    "singularity_alloy",
+                    SingularityAlloyItem::new,
+                    new Item.Properties().stacksTo(100).rarity(Rarity.EPIC)
+            );
+
+
 }

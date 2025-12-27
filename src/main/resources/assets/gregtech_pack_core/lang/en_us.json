@@ -5,5 +5,8 @@
   "machine.alloyer": "Alloyer",
   "machine.iumcrafter": "Ium Crafter",
   "guide.name": "Gregtech pack core guidebook",
-  "guide.landing_text": "This book gives info and instructions in the use of the mod"
+  "guide.landing_text": "This book gives info and instructions in the use of the mod",
+  "tooltip.gregtech_pack_core.singularity_alloy.creative": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
+  "item.gregtech_pack_core.singularity_alloy": "Singularity Alloy"
+
 }
