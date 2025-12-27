@@ -29,7 +29,7 @@ This mod is in beta and in early development
 
 # version 0.3
 ## warning!
-This mod is n beta and in early development
+This mod is in beta and in early development
 ## What's new
 * added incomplete GTCEu fi_fi translation
 * Patchouli book for en_us and fi_fi
