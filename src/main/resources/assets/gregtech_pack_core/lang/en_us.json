@@ -10,6 +10,7 @@
   "item.gregtech_pack_core.singularity_alloy": "Singularity Alloy",
   "machine.ultcrafter": "Ultimate Crafter",
   "gtpc.guide.category.name": "Resources",
-  "gtpc.guide.category.resources.entry0": "Resources category intro"
+  "gtpc.guide.category.resources.entry0": "Resources category intro",
+  "block.gregtech_pack_core.compressed_iron_block": "Compressed block of iron"
 
 }

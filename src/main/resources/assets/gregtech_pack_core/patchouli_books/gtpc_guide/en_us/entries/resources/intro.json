@@ -1,7 +1,7 @@
 {
   "name": "gtpc.guide.category.resources.entry0",
   "icon": "minecraft:iron_ingot",
-  "category": "gtpc_guide:resources",
+  "category": "gtpc_guide:resources_category",
   "pages": [
     {
       "type": "patchouli:text",

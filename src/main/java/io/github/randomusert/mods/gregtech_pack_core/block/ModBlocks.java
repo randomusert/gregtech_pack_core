@@ -15,7 +15,7 @@ import java.util.function.Supplier;
 public class ModBlocks {
     public static final DeferredRegister.Blocks BLOCKS = DeferredRegister.createBlocks(Gregtech_pack_core.MODID);
 
-    public static final DeferredBlock<Block> COMPRESSED_IRON_BLOCK = registerBlock("compressed_iron_block", () -> new Block(BlockBehaviour.Properties.of().strength(10F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
+    public static final DeferredBlock<Block> COMPRESSED_IRON_BLOCK = registerBlock("compressed_iron_block", () -> new Block(BlockBehaviour.Properties.of().strength(6F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
 
 
