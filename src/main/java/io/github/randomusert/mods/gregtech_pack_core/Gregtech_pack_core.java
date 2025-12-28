@@ -1,6 +1,7 @@
 package io.github.randomusert.mods.gregtech_pack_core;
 
 import com.mojang.logging.LogUtils;
+import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
 import io.github.randomusert.mods.gregtech_pack_core.item.ModCreativeTabs;
 import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
 import net.minecraft.client.Minecraft;
@@ -47,6 +48,7 @@ public class Gregtech_pack_core {
         modEventBus.addListener(this::commonSetup);
 
         ModItems.ITEMS.register(modEventBus);
+        ModBlocks.BLOCKS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TAB.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
         modContainer.registerConfig(ModConfig.Type.COMMON, Gregtech_pack_core_config.SPEC);
