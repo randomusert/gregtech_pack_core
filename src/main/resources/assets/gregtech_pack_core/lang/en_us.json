@@ -4,9 +4,12 @@
   "creativetab.gregtech_pack_core.gtpc_tab": "gregtech pack creative mode tab",
   "machine.alloyer": "Alloyer",
   "machine.iumcrafter": "Ium Crafter",
-  "guide.name": "Gregtech pack core guidebook",
-  "guide.landing_text": "This book gives info and instructions in the use of the mod",
+  "gtpc.guide.name": "Gregtech pack core guidebook",
+  "gtpc.guide.landing_text": "This book gives info and instructions in the use of the mod",
   "tooltip.gregtech_pack_core.singularity_alloy.creative": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
-  "item.gregtech_pack_core.singularity_alloy": "Singularity Alloy"
+  "item.gregtech_pack_core.singularity_alloy": "Singularity Alloy",
+  "machine.ultcrafter": "Ultimate Crafter",
+  "gtpc.guide.category.name": "Resources",
+  "gtpc.guide.category.resources.entry0": "Resources category intro"
 
 }

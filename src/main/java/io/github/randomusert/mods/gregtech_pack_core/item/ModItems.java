@@ -17,7 +17,7 @@ public class ModItems {
             ITEMS.registerItem(
                     "singularity_alloy",
                     SingularityAlloyItem::new,
-                    new Item.Properties().stacksTo(100).rarity(Rarity.EPIC)
+                    new Item.Properties().stacksTo(99).rarity(Rarity.EPIC)
             );
 
 

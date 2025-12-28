@@ -4,6 +4,8 @@
   "creativetab.gregtech_pack_core.gtpc_tab": "gregtech pack luova pelimuoto välilehti",
   "machine.alloyer": "Alloyer",
   "machine.iumcrafter": "Ium Crafter",
-  "guide.name": "Gregtech pack core ohjekirja",
-  "guide.landing_text": "Tämä kirja antaa tietoa ja ohjeita modin käytössä"
+  "gtpc.guide.name": "Gregtech pack core ohjekirja",
+  "gtpc.guide.landing_text": "Tämä kirja antaa tietoa ja ohjeita modin käytössä",
+  "tooltip.gregtech_pack_core.singularity_alloy.creative": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
+  "item.gregtech_pack_core.singularity_alloy": "Singularity Alloy"
 }

@@ -32,9 +32,11 @@ This mod is in beta and in early development
 This mod is in beta and in early development
 ## What's new
 * added incomplete GTCEu fi_fi translation
-* Patchouli book for en_us and fi_fi
+* Patchouli book for en_us and fi_fi(fi_fi entries and categories coming soon)
 * added a creative tier material called Singularity Alloy
+* added a machine called ultimate crafter or internally ultcrafter
 
 
 ## bug fixes
 * fixed 1 recipe.
+* fixed a issue where the singularity alloy full stack would kickthe player from the singleplayer world. not on public versions

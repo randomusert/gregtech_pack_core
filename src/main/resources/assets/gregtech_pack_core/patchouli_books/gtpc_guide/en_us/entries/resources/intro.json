@@ -1,0 +1,11 @@
+{
+  "name": "gtpc.guide.category.resources.entry0",
+  "icon": "minecraft:iron_ingot",
+  "category": "gtpc_guide:resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "this category will show the recipes and usages of materials added by gregtech pack core"
+    }
+  ]
+}
