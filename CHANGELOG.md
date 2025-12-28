@@ -35,6 +35,7 @@ This mod is in beta and in early development
 * Patchouli book for en_us and fi_fi(fi_fi entries and categories coming soon)
 * added a creative tier material called Singularity Alloy
 * added a machine called ultimate crafter or internally ultcrafter
+* added a block called compressed iron block (internally) / compressed block of iron
 
 
 ## bug fixes
