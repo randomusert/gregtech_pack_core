@@ -13,4 +13,7 @@ You can contribute to this project by opening issues or by commiting code.
 # license
 code is licensed under the MIT License.
 
-whilst the assets are 
+whilst the assets are licensed under the lgpl 3.0 license.
+
+# mirror
+This repo is being mirrored to gitlab: https://gitlab.com/randomusert/gregtech-pack-core-gitlab-mirror
