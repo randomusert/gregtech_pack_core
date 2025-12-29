@@ -17,3 +17,8 @@ whilst the assets are licensed under the lgpl 3.0 license.
 
 # mirror
 This repo is being mirrored to gitlab: https://gitlab.com/randomusert/gregtech-pack-core-gitlab-mirror
+
+# development
+As of 29 December 2025, development has mostly been moved a development and production repository model.
+development repository: https://github.com/randomusert/gregtech_pack_core
+production repository: https://github.com/randomusert-s-mods/gregtech_pack_core
