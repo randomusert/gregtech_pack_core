@@ -1,0 +1,11 @@
+{
+  "type": "minecraft",
+  "category": "misc",
+  "ingredients": [
+    "gregtech_pack_core:compressed_iron_block"
+  ],
+  "result": {
+    "count": 9,
+    "id": "minecraft:iron_block"
+  }
+}

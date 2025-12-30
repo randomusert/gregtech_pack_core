@@ -4,19 +4,6 @@ import com.mojang.logging.LogUtils;
 import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
 import io.github.randomusert.mods.gregtech_pack_core.item.ModCreativeTabs;
 import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
-import net.minecraft.client.Minecraft;
-import net.minecraft.core.registries.BuiltInRegistries;
-import net.minecraft.core.registries.Registries;
-import net.minecraft.network.chat.Component;
-import net.minecraft.world.food.FoodProperties;
-import net.minecraft.world.item.BlockItem;
-import net.minecraft.world.item.CreativeModeTab;
-import net.minecraft.world.item.CreativeModeTabs;
-import net.minecraft.world.item.Item;
-import net.minecraft.world.level.block.Block;
-import net.minecraft.world.level.block.Blocks;
-import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraft.world.level.material.MapColor;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -27,12 +14,8 @@ import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
-import net.neoforged.neoforge.event.BuildCreativeModeTabContentsEvent;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.neoforged.neoforge.registries.DeferredBlock;
-import net.neoforged.neoforge.registries.DeferredHolder;
-import net.neoforged.neoforge.registries.DeferredItem;
-import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.datamaps.RegisterDataMapTypesEvent;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -47,14 +30,21 @@ public class Gregtech_pack_core {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
 
+
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TAB.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
+
+
         modContainer.registerConfig(ModConfig.Type.COMMON, Gregtech_pack_core_config.SPEC);
 
     }
 
+
+    private void registerDataTypeMaps(RegisterDataMapTypesEvent event) {
+
+    }
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }

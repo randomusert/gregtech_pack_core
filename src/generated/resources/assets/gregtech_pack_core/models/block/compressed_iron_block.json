@@ -1,0 +1,6 @@
+{
+    "parent": "minecraft:block/cube_all",
+    "textures": {
+        "all": "gregtech_pack_core:block/compressed_iron_block"
+    }
+}
