@@ -1,0 +1,18 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "category": "misc",
+    "key": {
+        "X": {
+            "item": "minecraft:iron_block"
+        }
+    },
+    "pattern": [
+        "XXX",
+        "XXX",
+        "XXX"
+    ],
+    "result": {
+        "count": 1,
+        "id": "gregtech_pack_core:compressed_iron_block"
+    }
+}
