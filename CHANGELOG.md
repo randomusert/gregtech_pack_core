@@ -52,3 +52,5 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 * Item tag datagen stuff behind the scenes.
 * Datagen behind the scenes.
 * Build and Run python scripts
+## notes about this update
+This update does a lot of Backend stuff. This helps to develop this mod.
