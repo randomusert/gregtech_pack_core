@@ -41,3 +41,10 @@ This mod is in beta and in early development
 ## bug fixes
 * fixed 1 recipe.
 * fixed a issue where the singularity alloy full stack would kickthe player from the singleplayer world. not on public versions
+
+# version 0.4
+## warning!
+This mod is in beta and in early development. Expect bugs, crashes and other issues
+
+## What's new
+* Refined Storage Disk and part for storing items
