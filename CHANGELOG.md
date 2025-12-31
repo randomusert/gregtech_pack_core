@@ -48,3 +48,7 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 
 ## What's new
 * Refined Storage Disk and part for storing items
+* Recipes for the said Disks.
+* Item tag datagen stuff behind the scenes.
+* Datagen behind the scenes.
+* Build and Run python scripts

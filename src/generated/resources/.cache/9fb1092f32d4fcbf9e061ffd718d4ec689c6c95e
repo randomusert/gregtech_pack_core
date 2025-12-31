@@ -1,7 +1,17 @@
-// 1.21.1	2025-12-31T13:45:58.6757931	Recipes
+// 1.21.1	2025-12-31T15:55:34.2491934	Recipes
 1b93b8d942f837c7314207f1d7ae3485946f471c data/gregtech_pack_core/advancement/recipes/misc/compressed_iron_block.json
+834e76c33eecf33f286dab68f874e25875d0947f data/gregtech_pack_core/advancement/recipes/misc/disk/shaped/disk_1024k.json
+b4fd1a9d50e98b6a41ac75bf70ba33cddcd77e1c data/gregtech_pack_core/advancement/recipes/misc/disk/shaped/disk_256k.json
+3e67d48cccf12820315918b7378c32cbc2678c1e data/gregtech_pack_core/advancement/recipes/misc/disk/shapeless/disk_1024k.json
+5377a2a6356d3f67fa9b500ec4a646472f3dac6c data/gregtech_pack_core/advancement/recipes/misc/disk/shapeless/disk_256k.json
+0bf6db136c52170e59ab21982f8ec3d09902748e data/gregtech_pack_core/advancement/recipes/misc/part/storagepart_1024k.json
 fa9cfe03423f7648e7442a39a5395f5fc4e44de2 data/gregtech_pack_core/advancement/recipes/misc/part/storagepart_256k.json
 190640ddb8a270dc15f611d83864c7fca220b629 data/gregtech_pack_core/recipe/compressed_iron_block.json
+d8a2e59a6e41c91f5aa254a5830b410e1b4aa544 data/gregtech_pack_core/recipe/disk/shaped/disk_1024k.json
+de10c68811c590c1470f57f01ec2062aae83b3f3 data/gregtech_pack_core/recipe/disk/shaped/disk_256k.json
+17ee426cdf93a0d304c85512a3ab2d7231834ea0 data/gregtech_pack_core/recipe/disk/shapeless/disk_1024k.json
+0ecfde87ffa8b57ebf81932411b617ef72bd9ba2 data/gregtech_pack_core/recipe/disk/shapeless/disk_256k.json
+fef693696bfd9f526bd27442413ed06a3f1428d6 data/gregtech_pack_core/recipe/part/storagepart_1024k.json
 f15184ef2b5c8791d9f7bae3e4d758af0c77f1a5 data/gregtech_pack_core/recipe/part/storagepart_256k.json
 7fe43c2a29f059316f5a3f7737373c6e1679137b data/gtceu/advancement/recipes/misc/wrought_iron_ingot.json
 c185a9a336b36216236786769bec6176b96e6e53 data/gtceu/recipe/wrought_iron_ingot.json

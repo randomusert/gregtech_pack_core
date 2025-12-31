@@ -10,7 +10,8 @@ import org.jetbrains.annotations.Nullable;
 
 @Getter
 public enum LargeItemStorageVariant implements StorageVariant {
-    TIER_5(256);
+    TIER_5(256),
+    TIER_6(1024);
 
     private final Long capacity;
     private final String name;

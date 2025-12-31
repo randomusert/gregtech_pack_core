@@ -12,7 +12,9 @@
   "gtpc.guide.category.name": "Resources",
   "gtpc.guide.category.resources.entry0": "Resources category intro",
   "block.gregtech_pack_core.compressed_iron_block": "Compressed block of iron",
-  "item.gregtech_pack_core.storagepart_256k": "256K Item Storage Part",
-  "item.gregtech_pack_core.disk_256k": "256K Item Storage Disk"
+  "item.gregtech_pack_core.storagepart_256k": "256K Storage Part",
+  "item.gregtech_pack_core.disk_256k": "256K Storage Disk",
+  "item.gregtech_pack_core.disk_1024k": "1024K Storage Disk",
+  "item.gregtech_pack_core.storagepart_1024k": "1024K Storage Part"
 
 }

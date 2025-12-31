@@ -58,7 +58,15 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 partRecipe(ModItems.ITEM_STORAGE_PART.get(type),
                         com.refinedmods.refinedstorage.common.content.Items.INSTANCE.getItemStoragePart(ItemStorageVariant.SIXTY_FOUR_K),
                         recipeOutput);
+            } else {
+
+                partRecipe(ModItems.ITEM_STORAGE_PART.get(type),
+                        ModItemTags.Items.PARTS_ITEM.get(
+                                LargeItemStorageVariant.values()[type.ordinal() -1]),
+                        recipeOutput);
             }
+
+            diskRecipe(ModItems.ITEM_DISK.get(type), ModItemTags.Items.PARTS_ITEM.get(type), recipeOutput);
         }
 
     }

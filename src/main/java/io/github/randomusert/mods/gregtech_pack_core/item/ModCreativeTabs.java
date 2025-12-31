@@ -1,10 +1,13 @@
 package io.github.randomusert.mods.gregtech_pack_core.item;
 
 import io.github.randomusert.mods.gregtech_pack_core.Gregtech_pack_core;
+import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
+import io.github.randomusert.mods.gregtech_pack_core.storage.LargeItemStorageVariant;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
@@ -19,5 +22,12 @@ public class ModCreativeTabs {
                         output.accept(ModItems.MINECRAFTIUM);
                         output.accept(ModItems.GREGIUM);
                         output.accept(ModItems.SINGULARITY_ALLOY);
+                        output.accept(ModBlocks.COMPRESSED_IRON_BLOCK);
+                        for (var type : LargeItemStorageVariant.values()) {
+                            output.accept(ModItems.ITEM_STORAGE_PART.get(type).get());
+                        }
+                        for (var type : LargeItemStorageVariant.values()) {
+                            output.accept(ModItems.ITEM_DISK.get(type).get());
+                        }
                     }).build());
 }
