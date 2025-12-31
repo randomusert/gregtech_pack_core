@@ -1,4 +1,8 @@
-// 1.21.1	2025-12-29T20:11:38.0153689	Item Models: gregtech_pack_core
+// 1.21.1	2025-12-31T14:15:14.8754066	Item Models: gregtech_pack_core
+943ddbe5944c45fdadf64d123d576f44423bee5b assets/gregtech_pack_core/models/item/disk_1024k.json
+8ff5cde2f25f0a8d3a723e63281936b972b4adc7 assets/gregtech_pack_core/models/item/disk_256k.json
 779d100e836b0c74d097b1ab0e51acc09753ff19 assets/gregtech_pack_core/models/item/gregium.json
 c7500970c96807e385b2cb37ea3f31d0bab23b21 assets/gregtech_pack_core/models/item/minecraftium.json
 06e0a20612a6cdf0a3313b8507e204890e4efb0c assets/gregtech_pack_core/models/item/singularity_alloy.json
+4324b6e788ea1e658e2b56c7aa37427efc2a32f6 assets/gregtech_pack_core/models/item/storagepart_1024k.json
+9b762a555f45f466867accf97a9cbc2aef405fb1 assets/gregtech_pack_core/models/item/storagepart_256k.json

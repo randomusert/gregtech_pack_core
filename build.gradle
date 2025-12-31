@@ -12,6 +12,17 @@ repositories {
     maven {
         url "https://cursemaven.com"
     }
+    repositories {
+        maven {
+            name = "Refined Storage"
+            url = uri("https://maven.creeperhost.net")
+            content {
+                includeGroup("com.refinedmods.refinedstorage")
+            }
+        }
+    }
+
+    mavenCentral()
 }
 
 base {
@@ -71,13 +82,23 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 
 dependencies {
+
+    compileOnly("org.projectlombok:lombok:1.18.42")
+    annotationProcessor("org.projectlombok:lombok:1.18.42")
+
+    testCompileOnly("org.projectlombok:lombok:1.18.42")
+    testAnnotationProcessor("org.projectlombok:lombok:1.18.42")
+
     implementation "curse.maven:custom-machinery-457017:7344491"
     implementation "curse.maven:gregtechceu-modern-890405:6792853"
+
     implementation "curse.maven:jei-238222:7270455"
     implementation "curse.maven:mekanism-268560:7132168"
     implementation "curse.maven:ldlib-626676:6260254"
+
     implementation "curse.maven:patchouli-306770:6842247"
     implementation "curse.maven:recipe-modification-1345325:7214826"
+    api("com.refinedmods.refinedstorage:refinedstorage-neoforge:2.0.0")
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {

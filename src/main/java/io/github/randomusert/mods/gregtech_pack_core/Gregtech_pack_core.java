@@ -4,6 +4,7 @@ import com.mojang.logging.LogUtils;
 import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
 import io.github.randomusert.mods.gregtech_pack_core.item.ModCreativeTabs;
 import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
+import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
@@ -26,6 +27,9 @@ public class Gregtech_pack_core {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
+    public static ResourceLocation rl(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    }
     public Gregtech_pack_core(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
