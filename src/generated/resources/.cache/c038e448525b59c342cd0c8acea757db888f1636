@@ -1,3 +1,4 @@
-// 1.21.1	2025-12-29T20:11:38.0083727	Tags for minecraft:block mod id gregtech_pack_core
-d39a7c62f4da36cf838519dbb5d60b7ad9d03c4b data/minecraft/tags/block/mineable/pickaxe.json
+// 1.21.1	2026-01-01T12:51:02.9639977	Tags for minecraft:block mod id gregtech_pack_core
+2a3058a3cb3c25028bce4bb3d778d62204e155d0 data/minecraft/tags/block/mineable/pickaxe.json
+ea88a422a0a67d39a96cefbadc0d422a63b6c164 data/minecraft/tags/block/needs_diamond_tool.json
 d39a7c62f4da36cf838519dbb5d60b7ad9d03c4b data/minecraft/tags/block/needs_iron_tool.json

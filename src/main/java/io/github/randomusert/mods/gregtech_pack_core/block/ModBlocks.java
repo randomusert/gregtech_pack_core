@@ -5,6 +5,7 @@ import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.neoforged.neoforge.registries.DeferredBlock;
@@ -18,6 +19,7 @@ public class ModBlocks {
     public static final DeferredBlock<Block> COMPRESSED_IRON_BLOCK = registerBlock("compressed_iron_block", () -> new Block(BlockBehaviour.Properties.of().strength(6F).requiresCorrectToolForDrops().sound(SoundType.METAL)));
 
 
+    public static final DeferredBlock<Block> XENOVERD_ORE = registerBlock("xenoverd_ore", () -> new Block(BlockBehaviour.Properties.ofFullCopy(Blocks.ANCIENT_DEBRIS)));
 
     private static <T extends Block> DeferredBlock<T> registerBlock(String name, Supplier<T> block) {
         DeferredBlock<T> toReturn = BLOCKS.register(name, block);

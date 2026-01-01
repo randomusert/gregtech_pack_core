@@ -15,6 +15,7 @@
   "item.gregtech_pack_core.storagepart_256k": "256K Storage Part",
   "item.gregtech_pack_core.disk_256k": "256K Storage Disk",
   "item.gregtech_pack_core.disk_1024k": "1024K Storage Disk",
-  "item.gregtech_pack_core.storagepart_1024k": "1024K Storage Part"
+  "item.gregtech_pack_core.storagepart_1024k": "1024K Storage Part",
+  "creativetab.gregtech_pack_core.gtpc_materials_tab": "GT Pack Core Materials tab"
 
 }

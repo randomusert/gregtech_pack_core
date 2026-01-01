@@ -54,3 +54,12 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 * Build and Run python scripts
 ## notes about this update
 This update does a lot of Backend stuff. This helps to develop this mod.
+
+# version 0.5
+## warning!
+This mod is in beta and in early development. Expect bugs, crashes and other issues.
+
+## What's new
+* added a new material
+* added materials creative tab
+* added a ore

@@ -18,9 +18,15 @@ public class ModBlockTagProvider extends BlockTagsProvider {
 
     @Override
     protected void addTags(HolderLookup.Provider provider) {
+        // block tags of mineable/pickaxe
         tag(BlockTags.MINEABLE_WITH_PICKAXE)
-                .add(ModBlocks.COMPRESSED_IRON_BLOCK.get());
+                .add(ModBlocks.COMPRESSED_IRON_BLOCK.get())
+                .add(ModBlocks.XENOVERD_ORE.get());
+        // block tags of needs_iron_tool
         tag(BlockTags.NEEDS_IRON_TOOL)
                 .add(ModBlocks.COMPRESSED_IRON_BLOCK.get());
+        // block tags of needs_diamond_tool
+        tag(BlockTags.NEEDS_DIAMOND_TOOL)
+                .add(ModBlocks.XENOVERD_ORE.get());
     }
 }
