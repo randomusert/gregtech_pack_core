@@ -6,7 +6,7 @@
   "machine.iumcrafter": "Ium Crafter",
   "gtpc.guide.name": "Gregtech pack core guidebook",
   "gtpc.guide.landing_text": "This book gives info and instructions in the use of the mod",
-  "tooltip.gregtech_pack_core.singularity_alloy.creative": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
+  "tooltip.gregtech_pack_core.singularity_alloy.creative": "A creative tier item.",
   "item.gregtech_pack_core.singularity_alloy": "Singularity Alloy",
   "machine.ultcrafter": "Ultimate Crafter",
   "gtpc.guide.category.name": "Resources",
@@ -16,6 +16,8 @@
   "item.gregtech_pack_core.disk_256k": "256K Storage Disk",
   "item.gregtech_pack_core.disk_1024k": "1024K Storage Disk",
   "item.gregtech_pack_core.storagepart_1024k": "1024K Storage Part",
-  "creativetab.gregtech_pack_core.gtpc_materials_tab": "GT Pack Core Materials tab"
+  "creativetab.gregtech_pack_core.gtpc_materials_tab": "GT Pack Core Materials tab",
+  "jei.gtpc.items.singularity_alloy.info": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
+  "tooltip.gtpc.see_jei": "See JEI for more information"
 
 }

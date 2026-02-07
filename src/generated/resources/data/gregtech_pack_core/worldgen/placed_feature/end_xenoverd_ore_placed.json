@@ -1,5 +1,5 @@
 {
-    "feature": "gregtech_pack_core:xenoverd_ore",
+    "feature": "gregtech_pack_core:end_xenoverd_ore",
     "placement": [
         {
             "type": "minecraft:rarity_filter",

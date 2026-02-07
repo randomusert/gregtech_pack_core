@@ -7,10 +7,12 @@ import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.BlockTags;
+import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.levelgen.feature.ConfiguredFeature;
 import net.minecraft.world.level.levelgen.feature.Feature;
 import net.minecraft.world.level.levelgen.feature.configurations.FeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.configurations.OreConfiguration;
+import net.minecraft.world.level.levelgen.structure.templatesystem.BlockMatchTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.RuleTest;
 import net.minecraft.world.level.levelgen.structure.templatesystem.TagMatchTest;
 
@@ -18,6 +20,7 @@ import java.util.List;
 
 public class ModConfiguredFeatures {
     public static final ResourceKey<ConfiguredFeature<?, ?>> OVERWORLD_XENOVERD_ORE_KEY = registerKey("xenoverd_ore");
+    public static final ResourceKey<ConfiguredFeature<?, ?>> END_XENOVERD_ORE_KEY = registerKey("end_xenoverd_ore");
 
     public static void bootstrap(BootstrapContext<ConfiguredFeature<?, ?>> context) {
 
@@ -29,7 +32,9 @@ public class ModConfiguredFeatures {
                 OreConfiguration.target(stoneReplacables, ModBlocks.XENOVERD_ORE.get().defaultBlockState()),
                 OreConfiguration.target(deepslateReplacables, ModBlocks.XENOVERD_ORE.get().defaultBlockState()));
 
+        RuleTest endReplecable = new BlockMatchTest(Blocks.END_STONE);
         register(context, OVERWORLD_XENOVERD_ORE_KEY, Feature.ORE, new OreConfiguration(overworldXenoverdOres, 2));
+        register(context, END_XENOVERD_ORE_KEY, Feature.ORE, new OreConfiguration(endReplecable, ModBlocks.XENOVERD_ORE.get().defaultBlockState(), 9));
 
     }
 
