@@ -63,8 +63,10 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 * added a new material
 * added materials creative tab
 * added a ore
+* World gen and a JEI plugin
 
 ## fixed
+* data generation recipe provider registration
 
 
 ## changed

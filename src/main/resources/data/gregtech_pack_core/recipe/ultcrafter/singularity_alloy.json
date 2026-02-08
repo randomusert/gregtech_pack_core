@@ -23,7 +23,7 @@
       "type": "custommachinery:item",
       "mode": "input",
       "ingredient": {
-        "tag": "c:ingots/steel",
+        "tag": "gregtech_pack_core:xenoverd",
         "count": 64
       }
     },
