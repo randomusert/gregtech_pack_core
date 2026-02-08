@@ -26,9 +26,9 @@ public class ModPlacedFeatures {
         var configuredFeatures = context.lookup(Registries.CONFIGURED_FEATURE);
 
         register(context, XENOVERD_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.OVERWORLD_XENOVERD_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(10, HeightRangePlacement.triangle(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(60))));
+                ModOrePlacement.commonOrePlacement(10, HeightRangePlacement.triangle(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(60))));
         register(context, END_XENOVERD_ORE_PLACED_KEY, configuredFeatures.getOrThrow(ModConfiguredFeatures.END_XENOVERD_ORE_KEY),
-                ModOrePlacement.rareOrePlacement(10, HeightRangePlacement.triangle(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(60))));
+                ModOrePlacement.commonOrePlacement(10, HeightRangePlacement.triangle(VerticalAnchor.absolute(-64), VerticalAnchor.absolute(60))));
     }
 
     private static ResourceKey<PlacedFeature> registerKey(String name) {

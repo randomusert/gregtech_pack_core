@@ -1,0 +1,38 @@
+{
+  "type": "custommachinery:custom_machine",
+  "machine": "gregtech_pack_core:combiner",
+  "time": 1000,
+  "requirements": [
+    {
+      "type": "custommachinery:item",
+      "mode": "input",
+      "ingredient": {
+        "tag": "c:logs",
+        "count": 64
+      }
+    },
+    {
+      "type": "custommachinery:item",
+      "mode": "input",
+      "ingredient": {
+        "tag": "c:logs",
+        "count": 1
+      }
+    },
+    {
+      "type": "custommachinery:energy_per_tick",
+      "mode": "input",
+      "amount": 20
+
+    },
+    {
+      "type": "custommachinery:item",
+      "mode": "output",
+      "ingredient": {
+        "item": "minecraft:coal",
+        "count": 1
+      }
+    }
+
+  ]
+}

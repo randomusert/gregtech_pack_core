@@ -18,6 +18,7 @@
   "item.gregtech_pack_core.storagepart_1024k": "1024K Storage Part",
   "creativetab.gregtech_pack_core.gtpc_materials_tab": "GT Pack Core Materials tab",
   "jei.gtpc.items.singularity_alloy.info": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
-  "tooltip.gtpc.see_jei": "See JEI for more information"
+  "tooltip.gtpc.see_jei": "See JEI for more information",
+  "machine.combiner": "Combiner"
 
 }
