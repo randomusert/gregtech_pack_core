@@ -59,7 +59,12 @@ This update does a lot of Backend stuff. This helps to develop this mod.
 ## warning!
 This mod is in beta and in early development. Expect bugs, crashes and other issues.
 
-## What's new
+## Added
 * added a new material
 * added materials creative tab
 * added a ore
+
+## fixed
+
+
+## changed
