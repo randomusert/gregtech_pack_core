@@ -1,0 +1,24 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "xwx",
+    "oxo",
+    "xwx"
+  ],
+  "key": {
+    "x": {
+      "item": "minecraft:iron_block"
+    },
+    "o": {
+      "item": "minecraft:diamond_block"
+    },
+    "w": {
+      "item": "gregtech_pack_core:gregium"
+    }
+  },
+  "result": {
+    "id": "custommachinery:custom_machine_item",
+    "count": 1,
+    "components": {"custommachinery:machine": "gregtech_pack_core:combiner"}
+  }
+}

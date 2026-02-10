@@ -23,6 +23,9 @@ public class ModCreativeTabs {
                         output.accept(ModItems.GREGIUM);
                         output.accept(ModItems.SINGULARITY_ALLOY);
                         output.accept(ModBlocks.COMPRESSED_IRON_BLOCK);
+                        output.accept(ModItems.XENOVERD_INGOT);
+                        output.accept(ModItems.XENOVERD_SCRAP);
+                        output.accept(ModBlocks.XENOVERD_ORE);
                         for (var type : LargeItemStorageVariant.values()) {
                             output.accept(ModItems.ITEM_STORAGE_PART.get(type).get());
                         }
@@ -30,4 +33,17 @@ public class ModCreativeTabs {
                             output.accept(ModItems.ITEM_DISK.get(type).get());
                         }
                     }).build());
+
+    public static final Supplier<CreativeModeTab> GTPC_MATERIALS = CREATIVE_MODE_TAB.register("gtpc_material_tab",
+            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.XENOVERD_INGOT.get()))
+                    .title(Component.translatable("creativetab.gregtech_pack_core.gtpc_materials_tab"))
+                    .displayItems((itemDisplayParameter, output) -> {
+                        output.accept(ModItems.SINGULARITY_ALLOY);
+                        output.accept(ModBlocks.XENOVERD_ORE);
+                        output.accept(ModItems.XENOVERD_INGOT);
+                        output.accept(ModItems.XENOVERD_SCRAP);
+                        output.accept(ModItems.MINECRAFTIUM);
+                        output.accept(ModItems.GREGIUM);
+                    })
+                    .build());
 }

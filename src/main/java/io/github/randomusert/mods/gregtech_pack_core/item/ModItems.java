@@ -25,6 +25,20 @@ public class ModItems {
                     new Item.Properties().stacksTo(99).rarity(Rarity.EPIC)
             );
 
+
+    public static final DeferredItem<XenoverdIngot> XENOVERD_INGOT =
+            ITEMS.registerItem(
+                    "xenoverd_ingot",
+                            XenoverdIngot::new,
+                            new Item.Properties().stacksTo(99).rarity(Rarity.EPIC).fireResistant());
+
+    public static final  DeferredItem<XenoverdScrap> XENOVERD_SCRAP =
+            ITEMS.registerItem(
+                        "xenoverd_scrap",
+                            XenoverdScrap::new,
+                            new Item.Properties().stacksTo(99).rarity(Rarity.EPIC).fireResistant()
+            );
+
     public static final Map<LargeItemStorageVariant, DeferredItem<Item>> ITEM_STORAGE_PART = new HashMap<>();
     public static final Map<LargeItemStorageVariant, DeferredItem<Item>> ITEM_DISK = new HashMap<>();
 

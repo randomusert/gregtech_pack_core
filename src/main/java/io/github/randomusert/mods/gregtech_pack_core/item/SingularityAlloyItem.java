@@ -19,5 +19,7 @@ public class SingularityAlloyItem extends Item {
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
         tooltip.add(Component.translatable("tooltip.gregtech_pack_core.singularity_alloy.creative")
                 .withStyle(ChatFormatting.DARK_PURPLE, ChatFormatting.BOLD));
+        tooltip.add(Component.translatable("tooltip.gtpc.see_jei")
+                .withStyle(ChatFormatting.DARK_GRAY, ChatFormatting.BOLD));
     }
 }

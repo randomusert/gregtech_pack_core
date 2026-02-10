@@ -19,6 +19,8 @@ public class ModItemModelProvider extends ItemModelProvider {
         basicItem(ModItems.MINECRAFTIUM.get());
         basicItem(ModItems.GREGIUM.get());
         basicItem(ModItems.SINGULARITY_ALLOY.get());
+        basicItem(ModItems.XENOVERD_INGOT.get());
+        basicItem(ModItems.XENOVERD_SCRAP.get());
 
         for (var type : LargeItemStorageVariant.values()) {
             singleTexture(getPath(ModItems.ITEM_STORAGE_PART.get(type).get()),

@@ -54,3 +54,19 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 * Build and Run python scripts
 ## notes about this update
 This update does a lot of Backend stuff. This helps to develop this mod.
+
+# version 0.5 UPCOMING
+## warning!
+This mod is in beta and in early development. Expect bugs, crashes and other issues.
+
+## Added
+* added a new material
+* added materials creative tab
+* added a ore
+* World gen and a JEI plugin
+
+## fixed
+* data generation recipe provider registration
+
+
+## changed
