@@ -32,11 +32,10 @@ public class ModAdvancementProvider extends AdvancementProvider {
                              Consumer<AdvancementHolder> consumer,
                              ExistingFileHelper existingFileHelper) {
 
-            // ✅ Create ROOT and store holder
             AdvancementHolder root = Advancement.Builder.advancement()
                     .display(
                             ModItems.MINECRAFTIUM.get(),
-                            Component.literal("Welcome to gregtech pack core!"),
+                            Component.literal("gregtech pack core"),
                             Component.literal("This advancement tree will show a general progression of this mod"),
                             ResourceLocation.fromNamespaceAndPath("minecraft", "textures/block/stone.png"),
                             AdvancementType.TASK,
@@ -48,9 +47,9 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .save(consumer, "gregtech_pack_core:root");
 
 
-            // ✅ Create NEW builder for child
+
             Advancement.Builder.advancement()
-                    .parent(root) // ✔ use holder, not placeholder
+                    .parent(root)
                     .display(
                             ModItems.SINGULARITY_ALLOY.get(),
                             Component.literal("What have YOU DONE!?"),
@@ -64,10 +63,50 @@ public class ModAdvancementProvider extends AdvancementProvider {
                     .rewards(AdvancementRewards.Builder.experience(1000))
                     .addCriterion("obtain_singularity_alloy",
                             InventoryChangeTrigger.TriggerInstance.hasItems(
-                                    ModItems.SINGULARITY_ALLOY.get()
+                                    ModItems.MINECRAFTIUM.get()
                             )
                     )
                     .save(consumer, "gregtech_pack_core:obtain_singularity_alloy");
+
+            Advancement.Builder.advancement()
+                    .parent(root)
+                    .display(
+                            ModItems.MINECRAFTIUM.get(),
+                            Component.literal("minecraftium, a key to getting into gregtech"),
+                            Component.literal("Obtain minecraftium"),
+                            null,
+                            AdvancementType.TASK,
+                            true,
+                            true,
+                            false
+                    )
+                    .rewards(AdvancementRewards.Builder.experience(1000))
+                    .addCriterion("obtain_minecraftium",
+                            InventoryChangeTrigger.TriggerInstance.hasItems(
+                                    ModItems.MINECRAFTIUM.get()
+                            )
+                    )
+                    .save(consumer, "gregtech_pack_core:obtain_minecraftium");
+
+            Advancement.Builder.advancement()
+                    .parent(root)
+                    .display(
+                            ModItems.GREGIUM.get(),
+                            Component.literal("gregium the unlock for gregtech"),
+                            Component.literal("Obtain gregium"),
+                            null,
+                            AdvancementType.TASK,
+                            true,
+                            true,
+                            false
+                    )
+                    .rewards(AdvancementRewards.Builder.experience(1000))
+                    .addCriterion("obtain_gregium",
+                            InventoryChangeTrigger.TriggerInstance.hasItems(
+                                    ModItems.GREGIUM.get()
+                            )
+                    )
+                    .save(consumer, "gregtech_pack_core:obtain_gregium");
         }
     }
 }

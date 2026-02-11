@@ -1,7 +1,7 @@
 {
     "parent": "gregtech_pack_core:root",
     "criteria": {
-        "obtain_singularity_alloy": {
+        "obtain_minecraftium": {
             "conditions": {
                 "items": [
                     {
@@ -13,17 +13,16 @@
         }
     },
     "display": {
-        "description": "Obtain Singularity alloy",
-        "frame": "challenge",
+        "description": "Obtain minecraftium",
         "icon": {
             "count": 1,
-            "id": "gregtech_pack_core:singularity_alloy"
+            "id": "gregtech_pack_core:minecraftium"
         },
-        "title": "What have YOU DONE!?"
+        "title": "minecraftium, a key to getting into gregtech"
     },
     "requirements": [
         [
-            "obtain_singularity_alloy"
+            "obtain_minecraftium"
         ]
     ],
     "rewards": {

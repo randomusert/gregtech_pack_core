@@ -1,11 +1,11 @@
 {
     "parent": "gregtech_pack_core:root",
     "criteria": {
-        "obtain_singularity_alloy": {
+        "obtain_gregium": {
             "conditions": {
                 "items": [
                     {
-                        "items": "gregtech_pack_core:minecraftium"
+                        "items": "gregtech_pack_core:gregium"
                     }
                 ]
             },
@@ -13,17 +13,16 @@
         }
     },
     "display": {
-        "description": "Obtain Singularity alloy",
-        "frame": "challenge",
+        "description": "Obtain gregium",
         "icon": {
             "count": 1,
-            "id": "gregtech_pack_core:singularity_alloy"
+            "id": "gregtech_pack_core:gregium"
         },
-        "title": "What have YOU DONE!?"
+        "title": "gregium the unlock for gregtech"
     },
     "requirements": [
         [
-            "obtain_singularity_alloy"
+            "obtain_gregium"
         ]
     ],
     "rewards": {
