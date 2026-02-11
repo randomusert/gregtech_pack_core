@@ -9,7 +9,7 @@ import io.github.randomusert.mods.gregtech_pack_core.common.registries.Gregtech_
 public class Gregtech_pack_coreGTAddon implements IGTAddon {
     @Override
     public GTRegistrate getRegistrate() {
-        return  null;/*Gregtech_pack_coreRegistries.REGISTRATE*/
+        return  Gregtech_pack_coreRegistries.GTPC_REGISTRATE;
     }
 
     // LEAVE EMPTY
@@ -17,6 +17,7 @@ public class Gregtech_pack_coreGTAddon implements IGTAddon {
     public void gtInitComplete() {
 
     }
+
 
     @Override
     public boolean requiresHighTier() {

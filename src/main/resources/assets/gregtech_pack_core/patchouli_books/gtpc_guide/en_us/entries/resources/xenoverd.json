@@ -1,0 +1,29 @@
+{
+  "name": "Xenoverd ingot and scrap",
+  "icon": "gregtech_pack_core:xenoverd_ingot",
+  "category": "gregtech_pack_core:resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is xenoverd. It is a rare material"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "gregtech_pack_core:xenoverd_ingot"
+      }
+    },
+    {
+      "type": "patchouli:text",
+      "text": "This xenoverd scrap. a scrap of xenoverd ingot"
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "gregtech_pack_core:xenoverd_scrap"
+      }
+    }
+
+
+  ]
+}

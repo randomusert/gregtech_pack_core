@@ -1,24 +1,37 @@
 {
   "item.gregtech_pack_core.minecraftium": "Minecraftium",
   "item.gregtech_pack_core.gregium": "Gregium",
-  "creativetab.gregtech_pack_core.gtpc_tab": "gregtech pack creative mode tab",
-  "machine.alloyer": "Alloyer",
-  "machine.iumcrafter": "Ium Crafter",
-  "gtpc.guide.name": "Gregtech pack core guidebook",
-  "gtpc.guide.landing_text": "This book gives info and instructions in the use of the mod",
-  "tooltip.gregtech_pack_core.singularity_alloy.creative": "A creative tier item.",
-  "item.gregtech_pack_core.singularity_alloy": "Singularity Alloy",
-  "machine.ultcrafter": "Ultimate Crafter",
-  "gtpc.guide.category.name": "Resources",
-  "gtpc.guide.category.resources.entry0": "Resources category intro",
-  "block.gregtech_pack_core.compressed_iron_block": "Compressed block of iron",
   "item.gregtech_pack_core.storagepart_256k": "256K Storage Part",
   "item.gregtech_pack_core.disk_256k": "256K Storage Disk",
   "item.gregtech_pack_core.disk_1024k": "1024K Storage Disk",
   "item.gregtech_pack_core.storagepart_1024k": "1024K Storage Part",
+  "item.gregtech_pack_core.singularity_alloy": "Singularity Alloy",
+  "item.gregtech_pack_core.xenoverd_ingot": "Xenoverd ingot",
+  "item.gregtech_pack_core.xenoverd_scrap": "Xenoverd scrap",
+
+
+  "creativetab.gregtech_pack_core.gtpc_tab": "gregtech pack creative mode tab",
   "creativetab.gregtech_pack_core.gtpc_materials_tab": "GT Pack Core Materials tab",
+
+  "machine.alloyer": "Alloyer",
+  "machine.iumcrafter": "Ium Crafter",
+  "machine.ultcrafter": "Ultimate Crafter",
+  "machine.combiner": "Combiner",
+
+  "gtpc.guide.name": "Gregtech pack core guidebook",
+  "gtpc.guide.landing_text": "This book gives info and instructions in the use of the mod",
+
+
+  "block.gregtech_pack_core.compressed_iron_block": "Compressed block of iron",
+  "block.gregtech_pack_core.xenoverd_ore": "Xenoverd ore",
+
   "jei.gtpc.items.singularity_alloy.info": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
+  "jei.gtpc.items.xenoverd_ingot.info": "A super rare material found in the overworld. We don't fully understand it's properties, but we know that it can duplicate raw materials",
+  "jei.gtpc.items.xenoverd_scrap.info": "A scrap of a material that's properties are unknown",
+
+
   "tooltip.gtpc.see_jei": "See JEI for more information",
-  "machine.combiner": "Combiner"
+  "tooltip.gregtech_pack_core.singularity_alloy.creative": "A creative tier item.",
+  "tooltip.gtpc.xenoverd.tooltip": "A rare resource"
 
 }

@@ -1,0 +1,33 @@
+{
+    "parent": "gregtech_pack_core:root",
+    "criteria": {
+        "obtain_singularity_alloy": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "gregtech_pack_core:minecraftium"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": "Obtain Singularity alloy",
+        "frame": "challenge",
+        "icon": {
+            "count": 1,
+            "id": "gregtech_pack_core:singularity_alloy"
+        },
+        "title": "What have YOU DONE!?"
+    },
+    "requirements": [
+        [
+            "obtain_singularity_alloy"
+        ]
+    ],
+    "rewards": {
+        "experience": 1000
+    },
+    "sends_telemetry_event": true
+}

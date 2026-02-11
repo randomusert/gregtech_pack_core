@@ -64,9 +64,13 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 * added materials creative tab
 * added a ore
 * World gen and a JEI plugin
+* advancements
+* continued on patchouli guide book
 
 ## fixed
 * data generation recipe provider registration
-
+* recipe for singularity alloy
+* missing translations for xenoverd ingot, scrap and ore
 
 ## changed
+* a brand new texture for minecraftium

@@ -7,7 +7,7 @@
       "type": "custommachinery:item",
       "mode": "input",
       "ingredient": {
-        "tag": "c:logs",
+        "tag": "minecraft:logs",
         "count": 64
       }
     },
@@ -15,8 +15,8 @@
       "type": "custommachinery:item",
       "mode": "input",
       "ingredient": {
-        "tag": "c:logs",
-        "count": 1
+        "tag": "minecraft:logs",
+        "count": 64
       }
     },
     {

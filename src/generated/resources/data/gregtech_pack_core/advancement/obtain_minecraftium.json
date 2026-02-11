@@ -1,0 +1,32 @@
+{
+    "parent": "gregtech_pack_core:root",
+    "criteria": {
+        "obtain_minecraftium": {
+            "conditions": {
+                "items": [
+                    {
+                        "items": "gregtech_pack_core:minecraftium"
+                    }
+                ]
+            },
+            "trigger": "minecraft:inventory_changed"
+        }
+    },
+    "display": {
+        "description": "Obtain minecraftium",
+        "icon": {
+            "count": 1,
+            "id": "gregtech_pack_core:minecraftium"
+        },
+        "title": "minecraftium, a key to getting into gregtech"
+    },
+    "requirements": [
+        [
+            "obtain_minecraftium"
+        ]
+    ],
+    "rewards": {
+        "experience": 1000
+    },
+    "sends_telemetry_event": true
+}

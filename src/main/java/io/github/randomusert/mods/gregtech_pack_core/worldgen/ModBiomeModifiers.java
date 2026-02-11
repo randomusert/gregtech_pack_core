@@ -20,7 +20,7 @@ import net.neoforged.neoforge.registries.NeoForgeRegistries;
 public class ModBiomeModifiers {
 
     public static final ResourceKey<BiomeModifier> ADD_XENOVERD_ORE =registerKey("add_xenoverd_ore");
-    public static final ResourceKey<BiomeModifier> ADD_END_XENOVERD_ORE = registerKey("add_end_xenoverd_ore");
+
 
 
     public static void bootstrap(BootstrapContext<BiomeModifier> context) {
@@ -32,11 +32,7 @@ public class ModBiomeModifiers {
                 HolderSet.direct(placedFeature.getOrThrow(ModPlacedFeatures.XENOVERD_ORE_PLACED_KEY)),
                 GenerationStep.Decoration.UNDERGROUND_ORES));
 
-        context.register(ADD_END_XENOVERD_ORE, new BiomeModifiers.AddFeaturesBiomeModifier(
-                biomes.getOrThrow(BiomeTags.IS_END),
-                HolderSet.direct(placedFeature.getOrThrow(ModPlacedFeatures.END_XENOVERD_ORE_PLACED_KEY)),
-                GenerationStep.Decoration.UNDERGROUND_ORES
-        ));
+
     }
 
 

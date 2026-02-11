@@ -1,0 +1,17 @@
+{
+  "name": "gregium",
+  "icon": "gregtech_pack_core:gregium",
+  "category": "gregtech_pack_core:resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is gregium a resource obtained by crafting it in the iumcrafter machine added by this mod."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "gregtech_pack_core:gregium"
+      }
+    }
+  ]
+}

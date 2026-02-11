@@ -1,0 +1,24 @@
+{
+    "criteria": {
+        "tick": {
+            "trigger": "minecraft:tick"
+        }
+    },
+    "display": {
+        "announce_to_chat": false,
+        "background": "minecraft:textures/block/stone.png",
+        "description": "This advancement tree will show a general progression of this mod",
+        "icon": {
+            "count": 1,
+            "id": "gregtech_pack_core:minecraftium"
+        },
+        "show_toast": false,
+        "title": "gregtech pack core"
+    },
+    "requirements": [
+        [
+            "tick"
+        ]
+    ],
+    "sends_telemetry_event": true
+}
