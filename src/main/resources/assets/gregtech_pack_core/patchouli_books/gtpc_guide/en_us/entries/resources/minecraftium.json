@@ -1,6 +1,7 @@
 {
   "name": "Minecraftium",
   "icon": "gregtech_pack_core:minecraftium",
+  "advancement": "gregtech_pack_core:obtain_minecraftium",
   "category": "gregtech_pack_core:resources",
   "pages": [
     {
