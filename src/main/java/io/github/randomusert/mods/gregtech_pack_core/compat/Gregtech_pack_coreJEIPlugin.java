@@ -7,6 +7,7 @@ import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.constants.VanillaTypes;
 import mezz.jei.api.registration.IRecipeRegistration;
+import net.minecraft.ChatFormatting;
 import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.ItemStack;
@@ -26,6 +27,18 @@ public class Gregtech_pack_coreJEIPlugin implements IModPlugin {
                 new ItemStack(ModItems.SINGULARITY_ALLOY.get()),
                 VanillaTypes.ITEM_STACK,
                 Component.translatable("jei.gtpc.items.singularity_alloy.info")
+        );
+
+        registration.addIngredientInfo(
+                new ItemStack(ModItems.XENOVERD_INGOT.get()),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("jei.gtpc.items.xenoverd_ingot.info").withStyle(ChatFormatting.DARK_GREEN)
+        );
+
+        registration.addIngredientInfo(
+                new ItemStack(ModItems.XENOVERD_SCRAP.get()),
+                VanillaTypes.ITEM_STACK,
+                Component.translatable("jei.gtpc.items.xenoverd_scrap.info").withStyle(ChatFormatting.DARK_GREEN)
         );
     }
 }

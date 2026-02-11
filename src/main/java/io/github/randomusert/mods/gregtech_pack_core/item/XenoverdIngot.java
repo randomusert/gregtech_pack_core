@@ -15,6 +15,7 @@ public class XenoverdIngot extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
-        tooltip.add(Component.literal("A super rare material found in the overworld. We don't fully understand it's properties, but we know that it can duplicate raw materials").withStyle(ChatFormatting.DARK_GREEN, ChatFormatting.UNDERLINE));
+        tooltip.add(Component.translatable("tooltip.gtpc.xenoverd.tooltip"));
+        tooltip.add(Component.translatable("tooltip.gtpc.see_jei").withStyle(ChatFormatting.DARK_GRAY));
     }
 }

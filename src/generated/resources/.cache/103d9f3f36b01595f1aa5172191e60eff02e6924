@@ -1,7 +1,4 @@
-// 1.21.1	2026-01-01T18:05:18.9282337	Registries
-16beafe36505e2a60f8c2a495178a3dc82009fa0 data/gregtech_pack_core/neoforge/biome_modifier/add_end_xenoverd_ore.json
+// 1.21.1	2026-02-11T15:55:49.9778449	Registries
 ef25f530d41c4398f6fef8f0393703ea2f67a2de data/gregtech_pack_core/neoforge/biome_modifier/add_xenoverd_ore.json
-f932876c32edfff3b5e45956e2cbfc73328204af data/gregtech_pack_core/worldgen/configured_feature/end_xenoverd_ore.json
-25224a084e787482619b1e2c4867b26fc8183d7b data/gregtech_pack_core/worldgen/configured_feature/xenoverd_ore.json
-cd98560dbb2e8355cab2dfd4341f1bce0ea8625b data/gregtech_pack_core/worldgen/placed_feature/end_xenoverd_ore_placed.json
-64a0312d11e35f84196d1c767a4807480c777816 data/gregtech_pack_core/worldgen/placed_feature/xenoverd_ore_placed.json
+4363503b80cb58da97e6ed6210896983fd4cfd6f data/gregtech_pack_core/worldgen/configured_feature/xenoverd_ore.json
+007c72900aa104519114a2d683be93adc7e2c645 data/gregtech_pack_core/worldgen/placed_feature/xenoverd_ore_placed.json

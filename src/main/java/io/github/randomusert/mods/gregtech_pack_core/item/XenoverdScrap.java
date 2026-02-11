@@ -16,6 +16,7 @@ public class XenoverdScrap extends Item {
 
     @Override
     public void appendHoverText(ItemStack stack, Item.TooltipContext context, List<Component> tooltip, TooltipFlag flag) {
-        tooltip.add(Component.literal("A scrap of a material that's properties are unknow").withStyle(ChatFormatting.DARK_GREEN, ChatFormatting.UNDERLINE));
+        tooltip.add(Component.translatable("tooltip.gtpc.xenoverd.tooltip"));
+        tooltip.add(Component.translatable("tooltip.gtpc.see_jei").withStyle(ChatFormatting.DARK_GRAY));
     }
 }

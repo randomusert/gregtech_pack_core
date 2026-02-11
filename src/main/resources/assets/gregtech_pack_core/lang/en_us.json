@@ -7,7 +7,7 @@
   "item.gregtech_pack_core.storagepart_1024k": "1024K Storage Part",
   "item.gregtech_pack_core.singularity_alloy": "Singularity Alloy",
   "item.gregtech_pack_core.xenoverd_ingot": "Xenoverd ingot",
-  "item.gregtech_pack_core.xenover_scrap": "Xenoverd scrap",
+  "item.gregtech_pack_core.xenoverd_scrap": "Xenoverd scrap",
 
 
   "creativetab.gregtech_pack_core.gtpc_tab": "gregtech pack creative mode tab",
@@ -26,8 +26,12 @@
   "block.gregtech_pack_core.xenoverd_ore": "Xenoverd ore",
 
   "jei.gtpc.items.singularity_alloy.info": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
+  "jei.gtpc.items.xenoverd_ingot.info": "A super rare material found in the overworld. We don't fully understand it's properties, but we know that it can duplicate raw materials",
+  "jei.gtpc.items.xenoverd_scrap.info": "A scrap of a material that's properties are unknown",
 
 
   "tooltip.gtpc.see_jei": "See JEI for more information",
-  "tooltip.gregtech_pack_core.singularity_alloy.creative": "A creative tier item."
+  "tooltip.gregtech_pack_core.singularity_alloy.creative": "A creative tier item.",
+  "tooltip.gtpc.xenoverd.tooltip": "A rare resource"
+
 }
