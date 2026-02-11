@@ -1,0 +1,17 @@
+{
+  "name": "Minecraftium",
+  "icon": "gregtech_pack_core:minecraftium",
+  "category": "gregtech_pack_core:resources",
+  "pages": [
+    {
+      "type": "patchouli:text",
+      "text": "This is minecraftium a resource obtained by crafting it in the alloyer and/or iumcrafter machines added by this mod."
+    },
+    {
+      "type": "patchouli:spotlight",
+      "item": {
+        "item": "gregtech_pack_core:minecraftium"
+      }
+    }
+  ]
+}
