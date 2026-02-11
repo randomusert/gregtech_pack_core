@@ -67,6 +67,8 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 
 ## fixed
 * data generation recipe provider registration
-
+* recipe for singularity alloy
+* missing translations for xenoverd ingot, scrap and ore
 
 ## changed
+* a brand new texture for minecraftium
