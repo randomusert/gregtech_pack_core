@@ -6,3 +6,4 @@
 -  [ ] full translation for GregtechCEu to fi_fi
 - [ ] conditional recipes for different "versions"
 -  [ ] config that works with recipes
+- [ ] multiblocks
