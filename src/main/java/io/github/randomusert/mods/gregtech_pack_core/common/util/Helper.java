@@ -7,8 +7,8 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 
 public class Helper {
-    public static ItemLike item(String namespace, String path) {
-        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(namespace, path);
+    public static ItemLike item(String modId, String path) {
+        ResourceLocation id = ResourceLocation.fromNamespaceAndPath(modId, path);
         Item item = BuiltInRegistries.ITEM.get(id);
 
         if (item == Items.AIR) {

@@ -1,4 +1,4 @@
-// 1.21.1	2025-12-31T15:55:34.2491934	Recipes
+// 1.21.1	2026-02-14T16:19:02.5162945	Recipes
 1b93b8d942f837c7314207f1d7ae3485946f471c data/gregtech_pack_core/advancement/recipes/misc/compressed_iron_block.json
 834e76c33eecf33f286dab68f874e25875d0947f data/gregtech_pack_core/advancement/recipes/misc/disk/shaped/disk_1024k.json
 b4fd1a9d50e98b6a41ac75bf70ba33cddcd77e1c data/gregtech_pack_core/advancement/recipes/misc/disk/shaped/disk_256k.json
@@ -15,3 +15,5 @@ fef693696bfd9f526bd27442413ed06a3f1428d6 data/gregtech_pack_core/recipe/part/sto
 f15184ef2b5c8791d9f7bae3e4d758af0c77f1a5 data/gregtech_pack_core/recipe/part/storagepart_256k.json
 7fe43c2a29f059316f5a3f7737373c6e1679137b data/gtceu/advancement/recipes/misc/wrought_iron_ingot.json
 c185a9a336b36216236786769bec6176b96e6e53 data/gtceu/recipe/wrought_iron_ingot.json
+6ceabd1ef0735b570d611737b8a2997df1a95175 data/minecraft/advancement/recipes/misc/end_portal_frame.json
+56998ec3af7553bd1693089775533e1a544329fa data/minecraft/recipe/end_portal_frame.json

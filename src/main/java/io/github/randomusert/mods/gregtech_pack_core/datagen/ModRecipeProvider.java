@@ -4,6 +4,7 @@ import com.refinedmods.refinedstorage.common.misc.ProcessorItem;
 import com.refinedmods.refinedstorage.common.storage.ItemStorageVariant;
 import io.github.randomusert.mods.gregtech_pack_core.Gregtech_pack_core;
 import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
+import io.github.randomusert.mods.gregtech_pack_core.common.util.CustomItemStacksFromStrings;
 import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
 import io.github.randomusert.mods.gregtech_pack_core.storage.LargeItemStorageVariant;
 import net.minecraft.core.HolderLookup;
@@ -12,14 +13,9 @@ import net.minecraft.data.recipes.*;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
-import net.minecraft.world.item.crafting.ShapedRecipe;
-import net.minecraft.world.level.ItemLike;
 import net.neoforged.neoforge.common.Tags;
-import net.neoforged.neoforge.common.conditions.ICondition;
 import net.neoforged.neoforge.common.conditions.IConditionBuilder;
-import io.github.randomusert.mods.gregtech_pack_core.common.util.Helper;
 import net.neoforged.neoforge.registries.DeferredItem;
-import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.concurrent.CompletableFuture;
 
@@ -28,17 +24,9 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
         super(output, registries);
     }
 
-    ItemLike WROUGHT_IRON_INGOT = io.github.randomusert.mods.gregtech_pack_core.common.util.Helper.item("gtceu", "wrought_iron_ingot");
-
-    ItemLike ADVANCED_ENERGY_CUBE = Helper.item("mekanism", "advanced_energy_cube");
-
-
-
-
-
     @Override
     protected void buildRecipes(RecipeOutput recipeOutput) {
-        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, WROUGHT_IRON_INGOT)
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, CustomItemStacksFromStrings.WROUGHT_IRON_INGOT)
                 .requires(Items.IRON_INGOT)
                 .requires(Items.COAL)
                 .unlockedBy("has_iron_ingot", has(Items.IRON_INGOT))
@@ -52,6 +40,18 @@ public class ModRecipeProvider extends RecipeProvider implements IConditionBuild
                 .define('X', Items.IRON_BLOCK)
                 .unlockedBy("has_iron_block", has(Items.IRON_BLOCK))
                 .save(recipeOutput);
+
+
+        ShapelessRecipeBuilder.shapeless(RecipeCategory.MISC, CustomItemStacksFromStrings.END_PORTAL_FRAME)
+                .requires(Items.END_STONE, 2)
+                .requires(Items.ENDER_EYE, 2)
+                .requires(Items.OBSIDIAN)
+                .unlockedBy("has_end_stone", has(Items.END_STONE))
+                .unlockedBy("has_ender_eyes", has(Items.ENDER_EYE))
+                .unlockedBy("has_obsidian", has(Items.OBSIDIAN))
+                .save(recipeOutput);
+
+
 
         for (var type : LargeItemStorageVariant.values()) {
             if (type.equals(LargeItemStorageVariant.TIER_5)) {
