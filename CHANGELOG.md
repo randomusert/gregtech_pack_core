@@ -55,7 +55,7 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 ## notes about this update
 This update does a lot of Backend stuff. This helps to develop this mod.
 
-# version 0.5 UPCOMING
+# version 0.5
 ## warning!
 This mod is in beta and in early development. Expect bugs, crashes and other issues.
 
