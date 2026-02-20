@@ -1,7 +1,7 @@
 {
   "name": "Singularity Alloy",
   "icon": "gregtech_pack_core:singularity_alloy",
-  "advancement": "gregtech_pack_core:singularity_alloy",
+  "advancement": "gregtech_pack_core:obtain_singularity_alloy",
   "category": "gregtech_pack_core:resources",
   "pages": [
     {
