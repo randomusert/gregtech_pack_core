@@ -28,6 +28,18 @@ repositories {
         forRepository { maven { url = "https://mvn.devos.one/snapshots/" } }
         filter { includeGroup("com.tterrag.registrate") }
     }
+
+    maven {
+        name "firstdarkdev"
+        url "https://maven.firstdark.dev/snapshots"
+    }
+
+    repositories {
+        maven {
+            url = 'https://maven.blamejared.com'
+            name = 'BlameJared Maven'
+        }
+    }
 }
 
 base {
@@ -111,7 +123,12 @@ dependencies {
 
     implementation "curse.maven:patchouli-306770:6842247"
     implementation "curse.maven:recipe-modification-1345325:7214826"
+    implementation "curse.maven:modular-machinery-reborn-1083840:7623217"
+    implementation "curse.maven:athena-841890:7097200"
+    implementation "curse.maven:experiencelib-1156551:6616717"
+    implementation('com.blamejared.crafttweaker:CraftTweaker-neoforge-1.21.1:21.0.35')
     api("com.refinedmods.refinedstorage:refinedstorage-neoforge:2.0.0")
+
 }
 
 var generateModMetadata = tasks.register("generateModMetadata", ProcessResources) {

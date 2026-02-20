@@ -1,0 +1,19 @@
+{
+  "registryName": "gregtech_pack_core:greenhouse",
+  "localizedName": "Greenhouse",
+  "color": "#ffe81ecd",
+  "structure": {
+    "pattern": [
+      ["rrr", "rrr", "rrr"],
+      ["rrr", "odi", "rer"],
+      ["rrr", "rmr", "rrr"]
+    ],
+    "keys": {
+      "r": "modular_machinery_reborn:casing_reinforced",
+      "d": "minecraft:dirt",
+      "e": "#modular_machinery_reborn:energyinputhatch",
+      "o": "#modular_machinery_reborn:outputbus",
+      "i": "#modular_machinery_reborn:inputbus"
+    }
+  }
+}

@@ -55,7 +55,7 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 ## notes about this update
 This update does a lot of Backend stuff. This helps to develop this mod.
 
-# version 0.5 UPCOMING
+# version 0.5
 ## warning!
 This mod is in beta and in early development. Expect bugs, crashes and other issues.
 
@@ -66,6 +66,7 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 * World gen and a JEI plugin
 * advancements
 * continued on patchouli guide book
+* Greenhouse multiblock machine from modular machinery reborn
 
 ## fixed
 * data generation recipe provider registration

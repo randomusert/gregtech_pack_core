@@ -2,6 +2,7 @@
   "name": "gregium",
   "icon": "gregtech_pack_core:gregium",
   "category": "gregtech_pack_core:resources",
+  "advancement": "gregtech_pack_core:obtain_gregium",
   "pages": [
     {
       "type": "patchouli:text",
