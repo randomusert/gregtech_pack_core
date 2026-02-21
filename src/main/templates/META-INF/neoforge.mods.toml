@@ -72,40 +72,7 @@ versionRange = "${minecraft_version_range}"
 ordering = "NONE"
 side = "BOTH"
 
-[[dependencies."${mod_id}"]]
-modId =  "mekanism"
-type = "required"
-versionRange = "[10.7.17,)"
-ordering = "NONE"
-side = "BOTH"
 
-[[dependencies."${mod_id}"]]
-modId = "custommachinery"
-type = "required"
-versionRange = "[0.10.54,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies."${mod_id}"]]
-modId = "gtceu"
-type = "required"
-versionRange = "[7.0.2,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[depndencies."${mod_id}"]]
-modId = "patchouli"
-type = "required"
-versionRange = "[1.21.1-92,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies."${mod_id}"]]
-modId = "modular_machinery_reborn"
-type = "required"
-versionRange = "[3.0.7,)"
-ordering = "NONE"
-side = "BOTH"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
 # that your mod requires GL version 3.2 or higher. Other features will be added. They are side aware so declaring this won't
 # stop your mod loading on the server for example.

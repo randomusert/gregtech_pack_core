@@ -1,7 +1,0 @@
-// 1.21.1	2026-01-01T12:51:02.9399121	Block States: gregtech_pack_core
-648eda6f3da2333ae186451ae71d0006647d93f8 assets/gregtech_pack_core/blockstates/compressed_iron_block.json
-6e3e145a0af3c0a6da8fdb6f04c3995587ec6bef assets/gregtech_pack_core/blockstates/xenoverd_ore.json
-d7c3d1b94bb17cb510227deee875ef6f32975777 assets/gregtech_pack_core/models/block/compressed_iron_block.json
-f1bd5bc5ed1064f99ee4bde02ffc87f63fbeecaf assets/gregtech_pack_core/models/block/xenoverd_ore.json
-0a573e16758075a59452bb28483b72fd22078cf8 assets/gregtech_pack_core/models/item/compressed_iron_block.json
-a12a4540d2fb9e3925b59fdadcdf9813400e8777 assets/gregtech_pack_core/models/item/xenoverd_ore.json

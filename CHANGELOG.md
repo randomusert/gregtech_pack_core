@@ -1,4 +1,4 @@
-# version 0.1
+# version 0.1.0
 ## WARNING!
 This mod is in beta and in early development.
 
@@ -18,7 +18,7 @@ This mod is in beta and in early development.
 ### optional
 * Just Enough Items (JEI)
 
-# version 0.2
+# version 0.2.0
 ## warning!
 This mod is in beta and in early development
 
@@ -27,7 +27,7 @@ This mod is in beta and in early development
 * more crafting recipes, more is coming
 * added item called gregium
 
-# version 0.3
+# version 0.3.0
 ## warning!
 This mod is in beta and in early development
 ## What's new
@@ -42,7 +42,7 @@ This mod is in beta and in early development
 * fixed 1 recipe.
 * fixed a issue where the singularity alloy full stack would kickthe player from the singleplayer world. not on public versions
 
-# version 0.4
+# version 0.4.0
 ## warning!
 This mod is in beta and in early development. Expect bugs, crashes and other issues
 
@@ -55,7 +55,7 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 ## notes about this update
 This update does a lot of Backend stuff. This helps to develop this mod.
 
-# version 0.5
+# version 0.5.0
 ## warning!
 This mod is in beta and in early development. Expect bugs, crashes and other issues.
 
@@ -75,3 +75,7 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 
 ## changed
 * a brand new texture for minecraftium
+
+
+# version 0.6.0
+A huge version ahead. Please backup your world.

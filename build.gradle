@@ -9,36 +9,31 @@ version = mod_version
 group = mod_group_id
 
 repositories {
+    mavenCentral()
+
     maven {
-        url "https://cursemaven.com"
-    }
-    repositories {
-        maven {
-            name = "Refined Storage"
-            url = uri("https://maven.creeperhost.net")
-            content {
-                includeGroup("com.refinedmods.refinedstorage")
-            }
+        name = 'GTCEu Maven'
+        url = 'https://maven.gtceu.com'
+        content {
+            includeGroup 'com.gregtechceu.gtceu'
         }
     }
 
-    mavenCentral()
+    maven {
+        name = "Jared's maven"
+        url = "https://maven.blamejared.com/"
+    } // JEI
+    maven {
+        // location of a maven mirror for JEI files, as a fallback
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
 
+
+    maven { url = "https://maven.firstdarkdev.xyz/snapshots" } // LDLib
     exclusiveContent { // tterrag - registrate
         forRepository { maven { url = "https://mvn.devos.one/snapshots/" } }
         filter { includeGroup("com.tterrag.registrate") }
-    }
-
-    maven {
-        name "firstdarkdev"
-        url "https://maven.firstdark.dev/snapshots"
-    }
-
-    repositories {
-        maven {
-            url = 'https://maven.blamejared.com'
-            name = 'BlameJared Maven'
-        }
     }
 }
 
@@ -103,31 +98,11 @@ sourceSets.main.resources { srcDir 'src/generated/resources' }
 
 
 dependencies {
-
-    compileOnly("org.projectlombok:lombok:1.18.42")
-    annotationProcessor("org.projectlombok:lombok:1.18.42")
-
-    testCompileOnly("org.projectlombok:lombok:1.18.42")
-    testAnnotationProcessor("org.projectlombok:lombok:1.18.42")
-
-
     implementation "com.tterrag.registrate:Registrate:MC1.21-1.3.0+67"
-
-
-    implementation "curse.maven:custom-machinery-457017:7344491"
-    implementation "curse.maven:gregtechceu-modern-890405:6792853"
-
-    implementation "curse.maven:jei-238222:7270455"
-    implementation "curse.maven:mekanism-268560:7132168"
-    implementation "curse.maven:ldlib-626676:6260254"
-
-    implementation "curse.maven:patchouli-306770:6842247"
-    implementation "curse.maven:recipe-modification-1345325:7214826"
-    implementation "curse.maven:modular-machinery-reborn-1083840:7623217"
-    implementation "curse.maven:athena-841890:7097200"
-    implementation "curse.maven:experiencelib-1156551:6616717"
-    implementation('com.blamejared.crafttweaker:CraftTweaker-neoforge-1.21.1:21.0.35')
-    api("com.refinedmods.refinedstorage:refinedstorage-neoforge:2.0.0")
+    implementation "com.lowdragmc.ldlib:ldlib-neoforge-1.21.1:1.0.35.a"
+    implementation "com.gregtechceu:gtceu-1.21.1:7.0.2"
+    implementation "mezz.jei:jei-1.21.1-neoforge-api:19.27.0.336"
+    implementation "mezz.jei:jei-1.21.1-neoforge:19.27.0.336"
 
 }
 

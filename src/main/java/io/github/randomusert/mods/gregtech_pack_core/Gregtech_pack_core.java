@@ -1,9 +1,6 @@
 package io.github.randomusert.mods.gregtech_pack_core;
 
 import com.mojang.logging.LogUtils;
-import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
-import io.github.randomusert.mods.gregtech_pack_core.item.ModCreativeTabs;
-import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -27,17 +24,10 @@ public class Gregtech_pack_core {
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
 
-    public static ResourceLocation rl(String path) {
-        return ResourceLocation.fromNamespaceAndPath(MODID, path);
-    }
+
     public Gregtech_pack_core(IEventBus modEventBus, ModContainer modContainer) {
         // Register the commonSetup method for modloading
         modEventBus.addListener(this::commonSetup);
-
-
-        ModItems.ITEMS.register(modEventBus);
-        ModBlocks.BLOCKS.register(modEventBus);
-        ModCreativeTabs.CREATIVE_MODE_TAB.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
 
 
@@ -46,9 +36,7 @@ public class Gregtech_pack_core {
     }
 
 
-    private void registerDataTypeMaps(RegisterDataMapTypesEvent event) {
 
-    }
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }

@@ -1,9 +1,0 @@
-// 1.21.1	2025-12-31T15:55:34.2461949	Tags for minecraft:item mod id gregtech_pack_core
-86384a7319596a8317a325aab4072347851e6536 data/refinedstorage/tags/item/disks.json
-306491f6cfbe9a662cf80d34d01dadd1c932b718 data/refinedstorage/tags/item/disks/items.json
-1123eda0fb2124c3a325a2d65aaa08ed4a1f6ae4 data/refinedstorage/tags/item/disks/items/1024k.json
-4c8fff5b2adc5a418601261d9522765a04e472a5 data/refinedstorage/tags/item/disks/items/256k.json
-8ff4026709e9823c4576f61ce5bc0f36afcdb80c data/refinedstorage/tags/item/parts.json
-626371d9342a76fa0ff366b4b2ebe6aa319bce8d data/refinedstorage/tags/item/parts/items.json
-6a28f939a3d26edc00f8b0caf074c47a4f63ecd2 data/refinedstorage/tags/item/parts/items/1024k.json
-638a95a757ae894485297ea24276d38e5bfb8b99 data/refinedstorage/tags/item/parts/items/256k.json
