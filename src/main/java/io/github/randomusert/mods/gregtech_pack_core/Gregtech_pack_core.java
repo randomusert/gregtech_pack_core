@@ -3,6 +3,7 @@ package io.github.randomusert.mods.gregtech_pack_core;
 import com.gregtechceu.gtceu.api.registry.registrate.GTRegistrate;
 import com.mojang.logging.LogUtils;
 import io.github.randomusert.mods.gregtech_pack_core.item.Gregtech_pack_coreCreativeModeTabs;
+import io.github.randomusert.mods.gregtech_pack_core.item.Gregtech_pack_coreItems;
 import net.minecraft.resources.ResourceLocation;
 import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
@@ -31,6 +32,7 @@ public class Gregtech_pack_core {
 
     public Gregtech_pack_core(IEventBus modEventBus, ModContainer modContainer) {
 
+        Gregtech_pack_coreItems.NON_GT_RELATED_ITEMS.register(modEventBus);
         Gregtech_pack_coreCreativeModeTabs.CREATIVE_MODE_TAB.register(modEventBus);
 
 
