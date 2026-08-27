@@ -2,7 +2,7 @@ package io.github.randomusert.mods.gregtech_pack_core.compat;
 
 
 import io.github.randomusert.mods.gregtech_pack_core.Gregtech_pack_core;
-import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModItems;
 import mezz.jei.api.IModPlugin;
 import mezz.jei.api.JeiPlugin;
 import mezz.jei.api.constants.VanillaTypes;

@@ -1,12 +1,11 @@
 package io.github.randomusert.mods.gregtech_pack_core.datagen;
 
-import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
-import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModBlocks;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModItems;
 import net.minecraft.core.Holder;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.loot.BlockLootSubProvider;
-import net.minecraft.world.flag.FeatureFlagSet;
 import net.minecraft.world.flag.FeatureFlags;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.enchantment.Enchantment;

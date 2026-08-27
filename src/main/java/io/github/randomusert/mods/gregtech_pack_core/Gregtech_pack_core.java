@@ -1,22 +1,18 @@
 package io.github.randomusert.mods.gregtech_pack_core;
 
 import com.mojang.logging.LogUtils;
-import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
-import io.github.randomusert.mods.gregtech_pack_core.item.ModCreativeTabs;
-import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModBlocks;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModCreativeTabs;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModItems;
 import net.minecraft.resources.ResourceLocation;
-import net.neoforged.api.distmarker.Dist;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
-import net.neoforged.fml.common.EventBusSubscriber;
 import net.neoforged.fml.common.Mod;
-import net.neoforged.fml.config.ModConfig;
 import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
-import net.neoforged.neoforge.registries.datamaps.RegisterDataMapTypesEvent;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/neoforge.mods.toml file
@@ -39,16 +35,9 @@ public class Gregtech_pack_core {
         ModBlocks.BLOCKS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TAB.register(modEventBus);
         NeoForge.EVENT_BUS.register(this);
-
-
-        modContainer.registerConfig(ModConfig.Type.COMMON, Gregtech_pack_core_config.SPEC);
-
     }
 
 
-    private void registerDataTypeMaps(RegisterDataMapTypesEvent event) {
-
-    }
     private void commonSetup(final FMLCommonSetupEvent event) {
 
     }
@@ -63,8 +52,6 @@ public class Gregtech_pack_core {
         LOGGER.info("HELLO from server starting");
     }
 
-    // You can use EventBusSubscriber to automatically register all static methods in the class annotated with @SubscribeEvent
-    @EventBusSubscriber(modid = MODID, bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
     public static class ClientModEvents {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {

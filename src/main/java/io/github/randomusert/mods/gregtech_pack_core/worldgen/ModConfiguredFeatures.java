@@ -1,7 +1,7 @@
 package io.github.randomusert.mods.gregtech_pack_core.worldgen;
 
 import io.github.randomusert.mods.gregtech_pack_core.Gregtech_pack_core;
-import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModBlocks;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.data.worldgen.BootstrapContext;
 import net.minecraft.resources.ResourceKey;
