@@ -28,12 +28,12 @@ public class Gregtech_pack_coreJEIPlugin implements IModPlugin {
                 VanillaTypes.ITEM_STACK,
                 Component.translatable("jei.gtpc.items.singularity_alloy.info")
         );
-
+/*
         registration.addIngredientInfo(
                 new ItemStack(ModItems.XENOVERD_INGOT.get()),
                 VanillaTypes.ITEM_STACK,
                 Component.translatable("jei.gtpc.items.xenoverd_ingot.info").withStyle(ChatFormatting.DARK_GREEN)
-        );
+        );*/
 
         registration.addIngredientInfo(
                 new ItemStack(ModItems.XENOVERD_SCRAP.get()),

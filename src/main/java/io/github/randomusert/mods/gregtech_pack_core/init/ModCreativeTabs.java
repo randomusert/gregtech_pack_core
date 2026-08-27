@@ -6,6 +6,7 @@ import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.neoforged.neoforge.registries.DeferredRegister;
 
 import java.util.function.Supplier;
@@ -21,7 +22,7 @@ public class ModCreativeTabs {
                         output.accept(ModItems.GREGIUM);
                         output.accept(ModItems.SINGULARITY_ALLOY);
                         output.accept(ModBlocks.COMPRESSED_IRON_BLOCK);
-                        output.accept(ModItems.XENOVERD_INGOT);
+                        //output.accept(ModItems.XENOVERD_INGOT);
                         output.accept(ModItems.XENOVERD_SCRAP);
                         output.accept(ModBlocks.XENOVERD_ORE);
                         for (var type : LargeItemStorageVariant.values()) {
@@ -33,15 +34,16 @@ public class ModCreativeTabs {
                     }).build());
 
     public static final Supplier<CreativeModeTab> GTPC_MATERIALS = CREATIVE_MODE_TAB.register("gtpc_material_tab",
-            () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.XENOVERD_INGOT.get()))
+            () -> CreativeModeTab.builder()
+                    .icon(() -> new ItemStack(Items.DIAMOND))
                     .title(Component.translatable("creativetab.gregtech_pack_core.gtpc_materials_tab"))
                     .displayItems((itemDisplayParameter, output) -> {
                         output.accept(ModItems.SINGULARITY_ALLOY);
                         output.accept(ModBlocks.XENOVERD_ORE);
-                        output.accept(ModItems.XENOVERD_INGOT);
+                        //output.accept(ModItems.XENOVERD_INGOT);
                         output.accept(ModItems.XENOVERD_SCRAP);
                         output.accept(ModItems.MINECRAFTIUM);
                         output.accept(ModItems.GREGIUM);
-                    })
-                    .build());
+                    }).build());
+
 }

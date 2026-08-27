@@ -1,6 +1,7 @@
 package io.github.randomusert.mods.gregtech_pack_core;
 
 import com.mojang.logging.LogUtils;
+import io.github.randomusert.mods.gregtech_pack_core.common.data.GtpcMaterials;
 import io.github.randomusert.mods.gregtech_pack_core.init.ModBlocks;
 import io.github.randomusert.mods.gregtech_pack_core.init.ModCreativeTabs;
 import io.github.randomusert.mods.gregtech_pack_core.init.ModItems;
@@ -31,6 +32,7 @@ public class Gregtech_pack_core {
         modEventBus.addListener(this::commonSetup);
 
 
+        GtpcMaterials.register();
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         ModCreativeTabs.CREATIVE_MODE_TAB.register(modEventBus);
