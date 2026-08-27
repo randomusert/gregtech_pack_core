@@ -1,9 +1,8 @@
 package io.github.randomusert.mods.gregtech_pack_core.storage;
 
 import com.refinedmods.refinedstorage.common.storage.StorageVariant;
-import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModItems;
 import lombok.Getter;
-import net.minecraft.util.StringRepresentable;
 import net.minecraft.world.item.Item;
 import org.jetbrains.annotations.Nullable;
 

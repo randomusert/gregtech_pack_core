@@ -1,6 +1,9 @@
-package io.github.randomusert.mods.gregtech_pack_core.item;
+package io.github.randomusert.mods.gregtech_pack_core.init;
 
 import io.github.randomusert.mods.gregtech_pack_core.Gregtech_pack_core;
+import io.github.randomusert.mods.gregtech_pack_core.item.SingularityAlloyItem;
+import io.github.randomusert.mods.gregtech_pack_core.item.XenoverdIngot;
+import io.github.randomusert.mods.gregtech_pack_core.item.XenoverdScrap;
 import io.github.randomusert.mods.gregtech_pack_core.storage.LargeItemStorageVariant;
 import io.github.randomusert.mods.gregtech_pack_core.storage.expandedstoragedisk.ExpandedStorageDiskItem;
 import net.minecraft.world.item.Item;
