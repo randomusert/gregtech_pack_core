@@ -87,12 +87,14 @@ dependencies {
 
     implementation "dev.toma.configuration:configuration-1.21.1:3.1.1-neoforge"
 
-    runtimeOnly "mezz.jei:jei-1.21.1-neoforge:19.27.0.336"
+   // runtimeOnly "mezz.jei:jei-1.21.1-neoforge:19.27.0.336"
     compileOnly "mezz.jei:jei-1.21.1-neoforge-api:19.27.0.336"
 
 
     implementation "curse.maven:mekanism-268560:7132168"
-    implementation "curse.maven:ldlib-626676:6260254"
+
+    runtimeOnly "dev.emi:emi-neoforge:1.1.24+1.21.1"
+    compileOnly "dev.emi:emi-neoforge:1.1.24+1.21.1:api"
 
     api("com.refinedmods.refinedstorage:refinedstorage-neoforge:2.0.0")
 

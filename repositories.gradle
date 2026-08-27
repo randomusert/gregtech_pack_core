@@ -50,4 +50,11 @@ repositories {
         forRepository { maven { url = "https://repo.repsy.io/mvn/toma/public" } }
         filter { includeGroup("dev.toma.configuration") }
     }
+
+    repositories {
+        maven {
+            name = "Sleeping Town"
+            url = "https://repo.sleeping.town/"
+        }
+    }
 }
