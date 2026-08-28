@@ -2,7 +2,7 @@ package io.github.randomusert.mods.gregtech_pack_core.datagen;
 
 
 import io.github.randomusert.mods.gregtech_pack_core.Gregtech_pack_core;
-import io.github.randomusert.mods.gregtech_pack_core.block.ModBlocks;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModBlocks;
 import net.minecraft.data.PackOutput;
 import net.neoforged.neoforge.client.model.generators.BlockStateProvider;
 import net.neoforged.neoforge.common.data.ExistingFileHelper;

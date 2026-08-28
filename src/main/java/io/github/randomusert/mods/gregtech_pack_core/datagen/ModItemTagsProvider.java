@@ -1,7 +1,7 @@
 package io.github.randomusert.mods.gregtech_pack_core.datagen;
 
 import io.github.randomusert.mods.gregtech_pack_core.Gregtech_pack_core;
-import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
+import io.github.randomusert.mods.gregtech_pack_core.init.ModItems;
 import io.github.randomusert.mods.gregtech_pack_core.storage.LargeItemStorageVariant;
 import net.minecraft.core.HolderLookup;
 import net.minecraft.data.PackOutput;

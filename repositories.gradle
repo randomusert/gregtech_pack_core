@@ -1,0 +1,60 @@
+repositories {
+    maven {
+        url "https://cursemaven.com"
+    }
+    repositories {
+        maven {
+            name = "Refined Storage"
+            url = uri("https://maven.creeperhost.net")
+            content {
+                includeGroup("com.refinedmods.refinedstorage")
+            }
+        }
+    }
+
+    mavenCentral()
+
+    exclusiveContent { // tterrag - registrate
+        forRepository { maven { url = "https://mvn.devos.one/snapshots/" } }
+        filter { includeGroup("com.tterrag.registrate") }
+    }
+
+    maven {
+        name "firstdarkdev"
+        url "https://maven.firstdark.dev/snapshots"
+    }
+
+    maven {
+        name = "BlameJared"
+        url = "https://maven.blamejared.com/"
+    }
+    maven {
+        url = "https://maven.theillusivec4.top/"
+    }
+
+    maven {
+        name = 'GTCEu Maven'
+        url = 'https://maven.gtceu.com'
+        content {
+            includeGroup 'com.gregtechceu.gtceu'
+            includeGroup 'brachy.modularui'
+        }
+
+    }
+    maven {
+        // location of a maven mirror for JEI files, as a fallback
+        name = "ModMaven"
+        url = "https://modmaven.dev"
+    }
+    exclusiveContent { // Configuration
+        forRepository { maven { url = "https://repo.repsy.io/mvn/toma/public" } }
+        filter { includeGroup("dev.toma.configuration") }
+    }
+
+    repositories {
+        maven {
+            name = "Sleeping Town"
+            url = "https://repo.sleeping.town/"
+        }
+    }
+}

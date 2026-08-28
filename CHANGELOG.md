@@ -75,3 +75,6 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 
 ## changed
 * a brand new texture for minecraftium
+
+
+# version 0.6

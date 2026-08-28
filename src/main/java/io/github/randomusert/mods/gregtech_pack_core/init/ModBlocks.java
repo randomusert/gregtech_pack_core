@@ -1,7 +1,6 @@
-package io.github.randomusert.mods.gregtech_pack_core.block;
+package io.github.randomusert.mods.gregtech_pack_core.init;
 
 import io.github.randomusert.mods.gregtech_pack_core.Gregtech_pack_core;
-import io.github.randomusert.mods.gregtech_pack_core.item.ModItems;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
