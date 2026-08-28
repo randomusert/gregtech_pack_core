@@ -76,5 +76,35 @@ This mod is in beta and in early development. Expect bugs, crashes and other iss
 ## changed
 * a brand new texture for minecraftium
 
+# version 0.5.1
+## Warning!
+This mod is in beta and in early deveopment. Expect bugs, crashes and other issues.
+
+## added
+N/A
+
+## fixed
+N/A
+
+## changed
+* modified stack limits
+* internal stuff
+* removed multiple mods being from being required dependencies
+* removed patchouli guide book
+## notes!
+This update is the last before 0.6 which might take a while to develop.
 
 # version 0.6
+
+## Warning!
+This mod is in beta nad in early development. Expect bugs, crashes and other issues.
+
+## added
+* Xenoverd as GT Material adding some additional items
+
+## fixed
+N/A
+
+## Changed 
+* Removed old Xenoverd ingot item and replace it as a material item using GT
+* Change machines from Custom Machinery to GTs Java API

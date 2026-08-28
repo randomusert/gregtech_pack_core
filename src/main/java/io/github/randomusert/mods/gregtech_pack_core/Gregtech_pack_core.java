@@ -1,5 +1,6 @@
 package io.github.randomusert.mods.gregtech_pack_core;
 
+import com.gregtechceu.gtceu.api.registry.registrate.GTRegistrate;
 import com.mojang.logging.LogUtils;
 import io.github.randomusert.mods.gregtech_pack_core.common.data.GtpcMaterials;
 import io.github.randomusert.mods.gregtech_pack_core.init.ModBlocks;
@@ -23,6 +24,8 @@ public class Gregtech_pack_core {
     public static final String MODID = "gregtech_pack_core";
     // Directly reference a slf4j logger
     private static final Logger LOGGER = LogUtils.getLogger();
+
+    public static final GTRegistrate GTPC_REGISTRATE = GTRegistrate.create(MODID);
 
     public static ResourceLocation rl(String path) {
         return ResourceLocation.fromNamespaceAndPath(MODID, path);
