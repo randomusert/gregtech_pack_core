@@ -6,6 +6,8 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.ItemLike;
 
+import static io.github.randomusert.mods.gregtech_pack_core.Gregtech_pack_core.MODID;
+
 public class Helper {
     public static ItemLike item(String modId, String path) {
         ResourceLocation id = ResourceLocation.fromNamespaceAndPath(modId, path);
@@ -15,5 +17,9 @@ public class Helper {
             throw new IllegalStateException("Missing item: " + id);
         }
         return item;
+    }
+
+    public static ResourceLocation rl(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
     }
 }

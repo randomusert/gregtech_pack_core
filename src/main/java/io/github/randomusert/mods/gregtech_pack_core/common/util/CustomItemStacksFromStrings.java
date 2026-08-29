@@ -1,5 +1,6 @@
 package io.github.randomusert.mods.gregtech_pack_core.common.util;
 
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.level.ItemLike;
 
 public class CustomItemStacksFromStrings {
@@ -15,6 +16,12 @@ public class CustomItemStacksFromStrings {
     public static ItemLike WROUGHT_IRON_INGOT = Helper.item("gtceu", "wrought_iron_ingot");
 
     public static ItemLike END_PORTAL_FRAME = Helper.item(mc, "end_portal_frame");
+
+    public static ItemLike xenoverd_ingot = Helper.item("gregtech_pack_core", "xenoverd_ingot");
+
+    public static ItemLike singularity_alloy = Helper.item("gregtech_pack_core", "singularity_alloy");
+
+    public static ItemLike xenoverd_scrap = Helper.item("gregtech_pack_core", "xenoverd_scrap");
 
 
 

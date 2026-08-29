@@ -28,13 +28,12 @@ public class ModItems {
                     new Item.Properties().stacksTo(99).rarity(Rarity.EPIC)
             );
 
-
+/*
     public static final DeferredItem<XenoverdIngot> XENOVERD_INGOT =
             ITEMS.registerItem(
                     "xenoverd_ingot",
                             XenoverdIngot::new,
-                            new Item.Properties().stacksTo(99).rarity(Rarity.EPIC).fireResistant());
-
+                            new Item.Properties().stacksTo(99).rarity(Rarity.EPIC).fireResistant());*/
     public static final  DeferredItem<XenoverdScrap> XENOVERD_SCRAP =
             ITEMS.registerItem(
                         "xenoverd_scrap",

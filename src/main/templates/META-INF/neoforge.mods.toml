@@ -48,13 +48,6 @@ ordering = "NONE"
 side = "BOTH"
 
 [[dependencies."${mod_id}"]]
-modId =  "mekanism"
-type = "required"
-versionRange = "[10.7.17,)"
-ordering = "NONE"
-side = "BOTH"
-
-[[dependencies."${mod_id}"]]
 modId = "custommachinery"
 type = "required"
 versionRange = "[0.10.54,)"
@@ -64,7 +57,7 @@ side = "BOTH"
 [[dependencies."${mod_id}"]]
 modId = "gtceu"
 type = "required"
-versionRange = "[7.0.2,)"
+versionRange = "[8.0.0,)"
 ordering = "NONE"
 side = "BOTH"
 # Features are specific properties of the game environment, that you may want to declare you require. This example declares
