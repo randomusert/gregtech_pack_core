@@ -1,19 +1,24 @@
 package io.github.randomusert.mods.gregtech_pack_core;
 
+import com.gregtechceu.gtceu.api.data.chemical.material.event.PostMaterialEvent;
 import com.gregtechceu.gtceu.api.registry.registrate.GTRegistrate;
 import com.gregtechceu.gtceu.common.data.GTCreativeModeTabs;
+import com.gregtechceu.gtceu.common.data.GTMaterials;
 import com.mojang.logging.LogUtils;
 import com.tterrag.registrate.util.entry.RegistryEntry;
 import io.github.randomusert.mods.gregtech_pack_core.common.data.GtpcElements;
 import io.github.randomusert.mods.gregtech_pack_core.common.data.GtpcMaterials;
+import io.github.randomusert.mods.gregtech_pack_core.common.machine.GtpcMachines;
 import io.github.randomusert.mods.gregtech_pack_core.common.util.CustomItemStacksFromStrings;
 import io.github.randomusert.mods.gregtech_pack_core.common.util.Helper;
 import io.github.randomusert.mods.gregtech_pack_core.init.ModBlocks;
 import io.github.randomusert.mods.gregtech_pack_core.init.ModCreativeTabs;
 import io.github.randomusert.mods.gregtech_pack_core.init.ModItems;
+import net.minecraft.core.Registry;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
 import net.neoforged.bus.api.IEventBus;
 import net.neoforged.bus.api.SubscribeEvent;
 import net.neoforged.fml.ModContainer;
@@ -22,6 +27,7 @@ import net.neoforged.fml.event.lifecycle.FMLClientSetupEvent;
 import net.neoforged.fml.event.lifecycle.FMLCommonSetupEvent;
 import net.neoforged.neoforge.common.NeoForge;
 import net.neoforged.neoforge.event.server.ServerStartingEvent;
+import net.neoforged.neoforge.registries.RegisterEvent;
 import org.slf4j.Logger;
 
 import java.util.function.Supplier;
@@ -42,22 +48,33 @@ public class Gregtech_pack_core {
         return ResourceLocation.fromNamespaceAndPath(MODID, path);
     }
 
+    public static ResourceLocation id(String path) {
+        return ResourceLocation.fromNamespaceAndPath(MODID, path);
+    }
+
     public Gregtech_pack_core(IEventBus modEventBus, ModContainer modContainer) {
 
         modEventBus.addListener(this::commonSetup);
 
 
-        GtpcElements.init();
-        GtpcMaterials.register();
+
         ModItems.ITEMS.register(modEventBus);
         ModBlocks.BLOCKS.register(modEventBus);
         ModCreativeTabs.register(modEventBus);
-        NeoForge.EVENT_BUS.register(this);
+        GtpcElements.init();
+        GtpcMaterials.register();
+        GtpcMachines.init();
+
     }
 
 
-    private void commonSetup(final FMLCommonSetupEvent event) {
 
+    @SubscribeEvent
+    private void commonSetup(final FMLCommonSetupEvent event) {
+        event.enqueueWork(() -> {
+            LOGGER.info("Hello from common setup! This is *after* registries are done, so we can do this:");
+            LOGGER.info("Look, I found a {}!", Items.DIAMOND);
+        });
     }
 
     // Add the example block item to the building blocks tab
@@ -74,5 +91,9 @@ public class Gregtech_pack_core {
         @SubscribeEvent
         public static void onClientSetup(FMLClientSetupEvent event) {
         }
+    }
+    @SubscribeEvent
+    private void modifyMaterials(PostMaterialEvent event) {
+        // CustomMaterials.modify();
     }
 }
