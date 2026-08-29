@@ -25,12 +25,12 @@
   "block.gregtech_pack_core.compressed_iron_block": "Compressed block of iron",
   "block.gregtech_pack_core.xenoverd_ore": "Xenoverd ore",
 
-  "jei.gtpc.items.singularity_alloy.info": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
-  "jei.gtpc.items.xenoverd_ingot.info": "A super rare material found in the overworld. We don't fully understand it's properties, but we know that it can duplicate raw materials",
-  "jei.gtpc.items.xenoverd_scrap.info": "A scrap of a material that's properties are unknown",
+  "tooltip.gtpc.items.singularity_alloy.info": "A material composed of substances with unknown properties. Can be used to craft creative-tier items.",
+  "tooltip.gtpc.items.xenoverd_ingot.info": "A super rare material found in the overworld. We don't fully understand it's properties, but we know that it can duplicate raw materials",
+  "tooltip.gtpc.items.xenoverd_scrap.info": "A scrap of a material that's properties are unknown",
 
 
-  "tooltip.gtpc.see_jei": "See JEI for more information",
+  "tooltip.gtpc.see_jei": "See EMI for more information",
   "tooltip.gregtech_pack_core.singularity_alloy.creative": "A creative tier item.",
   "tooltip.gtpc.xenoverd.tooltip": "A rare resource"
 
