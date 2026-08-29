@@ -18,5 +18,11 @@ public class Gregtech_pack_coreEMIPlugin implements EmiPlugin {
 
         registry.addRecipe(new EmiInfoRecipe(List.of(ItemInfoData.xenoverdIngotStack), ItemInfoData.xenoverdIngotInfoText,
                 ItemInfoData.rl("xenoverd_ingot")));
+
+        registry.addRecipe(new EmiInfoRecipe(List.of(ItemInfoData.SingularityAlloy), ItemInfoData.SingularityAlloyText,
+                ItemInfoData.rl("singularity_alloy")));
+
+        registry.addRecipe(new EmiInfoRecipe(List.of(ItemInfoData.xenoverdScrapStack), ItemInfoData.xenoverdScrapInfoText,
+                ItemInfoData.rl("xenoverd_scrap")));
     }
 }
